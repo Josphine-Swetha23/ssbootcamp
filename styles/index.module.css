@@ -1,0 +1,474 @@
+.container {
+  font-family: inter;
+  min-height: 100vh;
+}
+.wrapper1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  background: var(--color-background);
+}
+.guaranteetext {
+  color: var(--color-orange);
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.herotitle {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 77px;
+  letter-spacing: 0em;
+
+  width: 70%;
+}
+.heroimg {
+  height: 550px;
+  width: 650px;
+}
+.herotag {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: var(--color-grey);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.herobutton {
+  width: 160px;
+  height: 40px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-purple);
+  color: var(--color-white);
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.wrapper2 {
+  background: var(--color-background-2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+.wrappertxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 45px;
+}
+.wrappertxt1 {
+  color: var(--color-orange);
+
+  font-size: 16px;
+  font-weight: 500;
+
+  letter-spacing: 0em;
+}
+.wrappertxt2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color: var(--color-white);
+}
+.wrapper2cards {
+  margin-top: 60px;
+  display: flex;
+  gap: 80px;
+}
+.cardlogo {
+  height: 120px;
+  width: 120px;
+}
+.wrapper2card {
+  display: flex;
+  gap: 20px;
+  height: 260px;
+  width: 500px;
+  background: var(--color-white);
+  padding: 30px;
+}
+.cardwrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.cardtitle {
+  font-size: 24px;
+  font-weight: 500;
+
+  letter-spacing: 0em;
+}
+.cardpill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 80px;
+  color: var(--color-white);
+  background-color: var(--color-green);
+  border-radius: 5px;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+.carddetail {
+  color: var(--color-grey);
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.carddatetime {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.cardtag {
+  color: var(--color-green);
+  font-size: 14px;
+  font-weight: 500;
+
+  padding-bottom: 25px;
+}
+.cardexplore {
+  display: flex;
+  gap: 5px;
+}
+
+.wrapper3 {
+  background: var(--color-background);
+  padding-bottom: 10px;
+}
+.wrappertxt3 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color: var(--color-black);
+}
+.benefitswrappers {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.benefitswrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+}
+.biconwrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bicontxt1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.bicontxt2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-grey);
+}
+.wrapper4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 60px 70px 60px;
+  background: var(--color-white);
+}
+.numwrappers1 {
+  display: flex;
+  padding-top: 50px;
+  gap: 10px;
+}
+
+.numwrapper {
+  display: flex;
+  gap: 15px;
+  width: 332px;
+}
+.numrect {
+  position: relative;
+  width: 50px;
+  height: 73px;
+  background: var(--color-orange);
+}
+.num {
+  position: absolute;
+  top: -18px;
+  left: -4px;
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--color-white);
+}
+.numtxt {
+  font-size: 18px;
+  font-weight: 400;
+  width: 60%;
+}
+.tutorcards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 35px;
+}
+.tutorcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background: var(--color-white);
+  width: 350px;
+}
+.tutorcircle {
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+}
+.tutorimg {
+  object-fit: cover;
+}
+.tutorname {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.tutordesc {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-grey);
+  text-align: center;
+}
+.tutorcourse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  background: #61dafb;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.logotutor {
+  height: 29px;
+  width: 30px;
+}
+.alogotutor {
+  height: 15px;
+  width: 25px;
+}
+.viewtutor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.skilltxt {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 20px;
+}
+.skillbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 300px;
+  height: 60px;
+  background: var(--color-purple);
+  color: var(--color-white);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.wrapper5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: var(--color-background);
+  padding-bottom: 30px;
+}
+.todo {
+  position: absolute;
+  top: 2890px;
+  right: 72px;
+}
+.testimonialcards {
+  padding-top: 40px;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 80px;
+}
+.testimonialcard {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 480px;
+  position: relative;
+  align-items: center;
+  box-shadow: 0px 0px 20px 0px #6814c914;
+}
+
+.testimonialimg {
+  object-fit: cover;
+  width: 350px;
+  height: 230px;
+}
+.testimonialdesc {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-grey);
+  text-align: center;
+  padding-top: 25px;
+}
+.testimonialname {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--color-black);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.companylogo {
+  height: 20px;
+  width: 60px;
+}
+.starbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  top: 208px;
+  padding: 12px 10px;
+  background: var(--color-orange);
+  position: absolute;
+}
+.footercontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0e011e;
+  padding: 60px 40px;
+}
+.footerwrappers {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+.footerwrapper {
+  display: flex;
+  gap: 60px;
+}
+.footerlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footerlink {
+  color: var(--color-white);
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footerdivider {
+  height: 72px;
+  width: 0px;
+  background: #fbf9fe;
+  opacity: 0.2;
+  border: 1px solid #fbf9fe;
+}
+.footertxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 72px;
+  width: 30%;
+}
+.footertxt1 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--color-white);
+}
+.footertxt2 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fbf9fe;
+}
+/* subscribe*/
+.inputgroup {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 605px;
+}
+
+.emailinput {
+  min-height: 40px;
+  max-width: 240px;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid var(--color-white);
+
+  background-color: transparent;
+}
+
+.buttonsubmit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  max-width: 40px;
+  padding: 0.5em 1em;
+  border: 1px solid var(--color-white);
+
+  background-color: var(--color-purple);
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.buttonsubmit:hover {
+  background-color: #752fc6;
+}
+
+.emailinput:focus,
+.emailinput:focus-visible {
+  border-color: var(--color-purple);
+  outline: none;
+}
