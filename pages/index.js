@@ -93,7 +93,7 @@ const HomePage = () => {
                 <img src="icon1.svg" alt="" />
                 <div className={styles.bicontxt}>
                   <div className={styles.bicontxt1}>Attend First Session for Free</div>
-                  <div className={styles.bicontxt2}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dicta</div>
+                  <div className={styles.bicontxt2}>First, serve with all the liberty</div>
 
                 </div>
               </div>
@@ -101,7 +101,7 @@ const HomePage = () => {
                 <img src="icon2.svg" alt="" />
                 <div className={styles.bicontxt}>
                   <div className={styles.bicontxt1}>In-Person / Live Class</div>
-                  <div className={styles.bicontxt2}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dicta</div>
+                  <div className={styles.bicontxt2}>Meet and connect in real-time as well as virtually.</div>
 
                 </div>
               </div>
@@ -109,7 +109,7 @@ const HomePage = () => {
                 <img src="icon3.svg" alt="" />
                 <div className={styles.bicontxt}>
                   <div className={styles.bicontxt1}>Personal Tutors</div>
-                  <div className={styles.bicontxt2}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dicta</div>
+                  <div className={styles.bicontxt2}>Exclusive tutors  </div>
 
                 </div>
               </div>
@@ -117,7 +117,8 @@ const HomePage = () => {
                 <img src="icon4.svg" alt="" />
                 <div className={styles.bicontxt}>
                   <div className={styles.bicontxt1}>Join the Community to interact</div>
-                  <div className={styles.bicontxt2}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dicta</div>
+                  <div className={styles.bicontxt2}>Connect and engage with geeks
+                  </div>
 
                 </div>
               </div>
@@ -125,7 +126,7 @@ const HomePage = () => {
                 <img src="icon5.svg" alt="" />
                 <div className={styles.bicontxt}>
                   <div className={styles.bicontxt1}>Separate Doubts Clearing Sessions</div>
-                  <div className={styles.bicontxt2}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dicta</div>
+                  <div className={styles.bicontxt2}>A private crystal clear session for doubts</div>
 
                 </div>
               </div>
@@ -135,7 +136,7 @@ const HomePage = () => {
                 <img src="icon6.svg" alt="" />
                 <div className={styles.bicontxt}>
                   <div className={styles.bicontxt1}>Regular Assessments and Quizzes</div>
-                  <div className={styles.bicontxt2}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dicta</div>
+                  <div className={styles.bicontxt2}>Periodic evaluations and analyses </div>
 
                 </div>
               </div>
@@ -143,7 +144,7 @@ const HomePage = () => {
                 <img src="icon7.svg" alt="" />
                 <div className={styles.bicontxt}>
                   <div className={styles.bicontxt1}>Regular Assessments and Quizzes</div>
-                  <div className={styles.bicontxt2}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dicta</div>
+                  <div className={styles.bicontxt2}>Experience a real-time work culture</div>
 
                 </div>
               </div>
@@ -151,7 +152,7 @@ const HomePage = () => {
                 <img src="icon8.svg" alt="" />
                 <div className={styles.bicontxt}>
                   <div className={styles.bicontxt1}>Boot Camp Completion Certificate</div>
-                  <div className={styles.bicontxt2}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dicta</div>
+                  <div className={styles.bicontxt2}>Obtain certification for your geekiness</div>
 
                 </div>
               </div>
@@ -159,7 +160,7 @@ const HomePage = () => {
                 <img src="icon9.svg" alt="" />
                 <div className={styles.bicontxt}>
                   <div className={styles.bicontxt1}>Soft Skills and Interview Assistance</div>
-                  <div className={styles.bicontxt2}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dicta</div>
+                  <div className={styles.bicontxt2}>Thrive and amass whatever you need</div>
 
                 </div>
               </div>
@@ -167,7 +168,7 @@ const HomePage = () => {
                 <img src="icon10.svg" alt="" />
                 <div className={styles.bicontxt}>
                   <div className={styles.bicontxt1}>Job Assistance</div>
-                  <div className={styles.bicontxt2}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dicta</div>
+                  <div className={styles.bicontxt2}>Join the squad for your optimal position</div>
 
                 </div>
               </div>
@@ -251,7 +252,7 @@ const HomePage = () => {
       </div>
       <div className={styles.wrapper2}>
         <div className={styles.wrappertxt}>
-          <div className={styles.wrappertxt1}>WHY CHOOSE US</div>
+          <div className={styles.wrappertxt1}>Meet Our Tutor</div>
           <div className={styles.wrappertxt2}>Tutor</div>
           <div className={styles.tutorcards}>
             <div className={styles.tutorcard}>
