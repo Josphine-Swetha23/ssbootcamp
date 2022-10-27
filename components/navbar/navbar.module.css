@@ -31,3 +31,18 @@
   font-size: 14px;
   text-align: center;
 }
+
+@media screen and (max-width: 1150px) {
+  .wrapper a {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .button {
+    display: none;
+  }
+  .container img {
+    width: 170px;
+  }
+}

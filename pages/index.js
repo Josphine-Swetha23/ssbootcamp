@@ -7,6 +7,7 @@ const HomePage = () => {
   return (
     <div className={styles.container} >
       <NavBar />
+
       <div className={styles.wrapper1}>
         <div className={styles.wrapper1l}><div className={styles.guaranteetext}>100% GROWTH GUARANTEE</div>
           <div className={styles.herotitle}>Notch up your
