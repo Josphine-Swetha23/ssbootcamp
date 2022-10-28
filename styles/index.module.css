@@ -1,6 +1,7 @@
 .container {
   font-family: inter;
   min-height: 100vh;
+  width: fit-content;
 }
 .wrapper1 {
   display: flex;
@@ -493,8 +494,8 @@
     flex-direction: column;
   }
   .benefitswrappers {
-    flex-direction: column;
-    gap: 20px;
+    /* flex-direction: column;
+    gap: 20px; */
   }
   .numwrappers1 {
     flex-wrap: wrap;
