@@ -507,26 +507,30 @@
     display: none;
   }
   .guaranteetext {
-    font-size: 24px;
+    font-size: 44px;
+    padding-bottom: 50px;
   }
   .herotitle {
-    font-size: 84px;
+    font-size: 114px;
+    line-height: 120px;
 
     width: 90%;
   }
   .heroimg {
-    height: 650px;
-    max-width: 750px;
+    height: 1550px;
+    max-width: 1250px;
   }
   .herotag {
-    font-size: 26px;
-
+    font-size: 46px;
+    letter-spacing: 8px;
+    line-height: 60px;
     margin-top: 30px;
     margin-bottom: 40px;
   }
   .herobutton {
-    width: 200px;
-    height: 80px;
+    font-size: 55px;
+    width: 400px;
+    height: 180px;
   }
 }
 
