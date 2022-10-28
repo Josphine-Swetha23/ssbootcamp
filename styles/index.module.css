@@ -494,8 +494,8 @@
     flex-direction: column;
   }
   .benefitswrappers {
-    /* flex-direction: column;
-    gap: 20px; */
+    flex-direction: column;
+    gap: 20px;
   }
   .numwrappers1 {
     flex-wrap: wrap;
@@ -505,32 +505,6 @@
   }
   .todo {
     display: none;
-  }
-  .guaranteetext {
-    font-size: 44px;
-    padding-bottom: 50px;
-  }
-  .herotitle {
-    font-size: 114px;
-    line-height: 120px;
-
-    width: 90%;
-  }
-  .heroimg {
-    height: 1550px;
-    max-width: 1250px;
-  }
-  .herotag {
-    font-size: 46px;
-    letter-spacing: 8px;
-    line-height: 60px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-  }
-  .herobutton {
-    font-size: 55px;
-    width: 400px;
-    height: 180px;
   }
 }
 
