@@ -506,6 +506,28 @@
   .todo {
     display: none;
   }
+  .guaranteetext {
+    font-size: 24px;
+  }
+  .herotitle {
+    font-size: 84px;
+
+    width: 90%;
+  }
+  .heroimg {
+    height: 650px;
+    max-width: 750px;
+  }
+  .herotag {
+    font-size: 26px;
+
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .herobutton {
+    width: 200px;
+    height: 80px;
+  }
 }
 
 @media screen and (max-width: 650px) {
