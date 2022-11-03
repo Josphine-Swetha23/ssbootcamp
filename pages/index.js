@@ -1,9 +1,19 @@
 import React from 'react'
+import Card from '../components/card/Card'
 import NavBar from '../components/navbar/NavBar'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from "swiper";
 
+
+
+import "swiper/css";
+import "swiper/css/pagination";
 import styles from '../styles/index.module.css'
 
 const HomePage = () => {
+
+
+
   return (
     <div className={styles.container} >
       <NavBar />
@@ -307,57 +317,42 @@ const HomePage = () => {
           <div className={styles.wrappertxt3}>Pay heed to our Alumni</div>
         </div>
         <div className={styles.testimonialcards}>
-          <div className={styles.testimonialcard}>
-
-            <img className={styles.testimonialimg} src="testimonial1.jpg" alt="" />
-
-            <div className={styles.testimonialdesc}>Quibusdam ea voluptatem autem. Aut labore ducimus et qui cupiditate.  Dtnad molestiae modi velit quia adip adipisci minus. Quis et id itaque voluptas sed quas voluptatem. Accusamus quis et ut.</div>
 
 
-            <div className={styles.testimonialname}>Winston Olson</div>
-            <img className={styles.companylogo} src="googlelogo.svg" alt="" />
-            <div className={styles.starbox}>
-              <img className={styles.star} src="star.svg" alt="star" />
-              <img className={styles.star} src="star.svg" alt="star" />
-              <img className={styles.star} src="star.svg" alt="star" />
-              <img className={styles.star} src="star.svg" alt="star" />
-              <img className={styles.star} src="star.svg" alt="star" />
-            </div>
-          </div>
-          <div className={styles.testimonialcard}>
 
-            <img className={styles.testimonialimg} src="testimonial1.jpg" alt="" />
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={3}
 
-            <div className={styles.testimonialdesc}>Quibusdam ea voluptatem autem. Aut labore ducimus et qui cupiditate.  Dtnad molestiae modi velit quia adip adipisci minus. Quis et id itaque voluptas sed quas voluptatem. Accusamus quis et ut.</div>
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+            className={styles.swiper}
+          >
+            <SwiperSlide> <Card /></SwiperSlide>
+            <SwiperSlide> <Card /></SwiperSlide>
+            <SwiperSlide> <Card /></SwiperSlide>
+            <SwiperSlide> <Card /></SwiperSlide>
+            ...
+          </Swiper>
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={1}
+            centeredSlides={true}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+            className={styles.swiper2}
+          >
+            <SwiperSlide> <Card /></SwiperSlide>
+            <SwiperSlide> <Card /></SwiperSlide>
+            <SwiperSlide> <Card /></SwiperSlide>
+            <SwiperSlide> <Card /></SwiperSlide>
+            ...
+          </Swiper>
 
-
-            <div className={styles.testimonialname}>Winston Olson</div>
-            <img className={styles.companylogo} src="googlelogo.svg" alt="" />
-            <div className={styles.starbox}>
-              <img className={styles.star} src="star.svg" alt="star" />
-              <img className={styles.star} src="star.svg" alt="star" />
-              <img className={styles.star} src="star.svg" alt="star" />
-              <img className={styles.star} src="star.svg" alt="star" />
-              <img className={styles.star} src="star.svg" alt="star" />
-            </div>
-          </div>
-          <div className={styles.testimonialcard}>
-
-            <img className={styles.testimonialimg} src="testimonial1.jpg" alt="" />
-
-            <div className={styles.testimonialdesc}>Quibusdam ea voluptatem autem. Aut labore ducimus et qui cupiditate.  Dtnad molestiae modi velit quia adip adipisci minus. Quis et id itaque voluptas sed quas voluptatem. Accusamus quis et ut.</div>
-
-
-            <div className={styles.testimonialname}>Winston Olson</div>
-            <img className={styles.companylogo} src="googlelogo.svg" alt="" />
-            <div className={styles.starbox}>
-              <img className={styles.star} src="star.svg" alt="star" />
-              <img className={styles.star} src="star.svg" alt="star" />
-              <img className={styles.star} src="star.svg" alt="star" />
-              <img className={styles.star} src="star.svg" alt="star" />
-              <img className={styles.star} src="star.svg" alt="star" />
-            </div>
-          </div>
 
         </div>
       </div>

@@ -39,3 +39,9 @@ button {
   outline: none;
   cursor: pointer;
 }
+
+/* swiperjs */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}

@@ -102,9 +102,10 @@ input[type]:checked ~ span.middle {
 @media screen and (max-width: 1150px) {
   .container {
     display: flex;
+    height: fit-content;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   .button {
     display: flex;
     height: 45px;
