@@ -45,3 +45,9 @@
   background: var(--color-orange);
   position: absolute;
 }
+
+@media screen and (max-width: 450px) {
+  .testimonialcard {
+    margin-bottom: 120px;
+  }
+}
