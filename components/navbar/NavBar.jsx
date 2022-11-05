@@ -6,7 +6,11 @@ import styles from './navbar.module.css'
 const NavBar = () => {
     return (
         <div className={styles.container} >
-            <img src="sightspectrumlogo.svg" alt="sightspectrumlogo" />
+            <div className={styles.logo}>
+
+                <img className={styles.desktoplogo} src="sightspectrumlogo.svg" alt="sightspectrumlogo" />
+            </div>
+
 
             <div className={styles.wrapper}>
                 <a href="">Courses</a>
