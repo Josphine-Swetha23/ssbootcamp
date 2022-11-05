@@ -27,8 +27,8 @@
   width: 70%;
 }
 .heroimg {
-  height: 652px;
-  max-width: 788px;
+  height: 550px;
+  max-width: 650px;
 }
 .herotag {
   font-size: 16px;
@@ -451,21 +451,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 80px;
   }
   .wrapper1l {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 35px;
   }
   .herobutton {
-    width: 303px;
-    height: 80px;
-    border-radius: 40px;
-    font-size: 30px;
+    width: 455px;
+    height: 105px;
+    border-radius: 60px;
+    font-size: 40px;
   }
   .guaranteetext {
-    font-size: 40px;
+    font-size: 42px;
   }
   .herotitle {
     font-size: 145px;
@@ -473,9 +473,13 @@
     width: 100%;
   }
   .herotag {
-    font-size: 38px;
+    font-size: 46px;
 
-    line-height: 45px;
+    line-height: 60px;
+  }
+  .heroimg {
+    height: 785px;
+    max-width: 973px;
   }
 
   .wrapper2cards {
