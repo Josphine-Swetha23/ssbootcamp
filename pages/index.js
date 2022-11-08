@@ -3,7 +3,7 @@ import Card from '../components/card/Card'
 import NavBar from '../components/navbar/NavBar'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from "swiper";
-
+import Link from 'next/link';
 
 
 import "swiper/css";
@@ -81,7 +81,7 @@ const HomePage = () => {
               <div className={styles.cardwrapper}>
                 <div className={styles.button1}>Enroll Now</div>
                 <div className={styles.cardexplore}>
-                  <div className={styles.button2}>Explore Course</div>
+                  <div className={styles.button2}>  <Link href="/azurebootcamp" > Explore Course</Link></div>
                   <img src="rightarrow.svg" alt="rightarrow" />
                 </div>
 
