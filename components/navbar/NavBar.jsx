@@ -1,15 +1,20 @@
 import React from 'react'
 import NavBarSmall from './NavBarSmall'
 
+
 import styles from './navbar.module.css'
+import Link from 'next/link'
 
 const NavBar = () => {
     return (
         <div className={styles.container} >
-            <div className={styles.logo}>
+            <Link href="/" >
+                <div className={styles.logo}>
 
-                <img className={styles.desktoplogo} src="sightspectrumlogo.svg" alt="sightspectrumlogo" />
-            </div>
+                    <img className={styles.desktoplogo} src="sightspectrumlogo.svg" alt="sightspectrumlogo" />
+                </div>
+
+            </Link>
 
 
             <div className={styles.wrapper}>
