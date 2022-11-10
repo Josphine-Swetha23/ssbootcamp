@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import NavBar from '../components/navbar/NavBar'
 
 import styles from '../styles/azurebootcamp.module.css'
 
 const AzureBootcamp = () => {
+
+    const [email, setEmail] = useState("Email Address")
+    const handleClick = (e) => {
+        if (e.target.value == "Email Address") {
+            setEmail("")
+        }
+
+    }
     return (
         <div className={styles.container} >
             <NavBar />
@@ -47,8 +55,10 @@ const AzureBootcamp = () => {
                     <div className={styles.imgcontainer}></div>
                     <div className={styles.icardname}>Fernando Miller</div>
                     <div className={styles.icarddesc}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dict</div>
+
                     <div className={styles.icardbuttontitle}>View Profile</div>
                     <img className={styles.icardbutton} src="rightarrowwhite.svg" alt="" />
+
                 </div>
             </div>
             <div className={`${styles.wrapper2} ${styles.backgroundwhite}`}>
@@ -310,6 +320,7 @@ const AzureBootcamp = () => {
                     <div className={styles.footerdivider} />
                     <div className={styles.footertxt}>
                         <div className={styles.footertxt1}>Stay Updated!
+                            🔥
                         </div>
                         <div className={styles.footertxt2}>Get updates on new programs, tips and snippets on
                             the technology right in your inbox.
@@ -318,7 +329,7 @@ const AzureBootcamp = () => {
                     </div>
                 </div>
                 <div className={styles.inputgroup}>
-                    <input type="email" className={styles.emailinput} value="email address" id="Email" name="Email" autocomplete="off" />
+                    <input type="email" onClick={handleClick} onChange={e => { setEmail(e.target.value) }} className={styles.emailinput} value={email} id="Email" name="Email" autocomplete="off" />
                     <div className={styles.buttonsubmit}  >
                         <img src="tick.svg" alt="tick" />
                     </div>

@@ -17,7 +17,7 @@ body {
 
 :root {
   --font-base: "Inter";
-
+  --color-button: #560bad;
   --color-background: #fbf9fe;
   --color-background-2: #250846;
   --color-background-3: #0e011e;

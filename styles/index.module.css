@@ -47,7 +47,7 @@
   justify-content: center;
   align-items: center;
   background: var(--color-purple);
-
+  cursor: pointer;
   color: var(--color-white);
 
   font-size: 20px;
@@ -402,7 +402,7 @@
 .inputgroup {
   display: flex;
   align-items: center;
-  padding-top: 30px;
+
   padding-left: 605px;
 }
 

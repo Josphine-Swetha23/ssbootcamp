@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Card from '../components/card/Card'
 import NavBar from '../components/navbar/NavBar'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -12,7 +12,13 @@ import styles from '../styles/index.module.css'
 
 const HomePage = () => {
 
+  const [email, setEmail] = useState("Email Address")
+  const handleClick = (e) => {
+    if (e.target.value == "Email Address") {
+      setEmail("")
+    }
 
+  }
 
   return (
     <div className={styles.container} >
@@ -389,6 +395,7 @@ const HomePage = () => {
           <div className={styles.footerdivider} />
           <div className={styles.footertxt}>
             <div className={styles.footertxt1}>Stay Updated!
+              🔥
             </div>
             <div className={styles.footertxt2}>Get updates on new programs, tips and snippets on
               the technology right in your inbox.
@@ -397,7 +404,7 @@ const HomePage = () => {
           </div>
         </div>
         <div className={styles.inputgroup}>
-          <input type="email" className={styles.emailinput} value="email address" id="Email" name="Email" autocomplete="off" />
+          <input type="email" onClick={handleClick} className={styles.emailinput} value={email} id="Email" name="Email" autocomplete="off" />
           <div className={styles.buttonsubmit}  >
             <img src="tick.svg" alt="tick" />
           </div>
