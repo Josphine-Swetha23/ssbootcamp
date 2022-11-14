@@ -164,13 +164,48 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  width: 30%;
+}
+.accordians2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 40%;
 }
 .miniwrapper3 {
   display: flex;
   gap: 15px;
 }
+.miniwrapper33 {
+  display: flex;
+  gap: 10px;
+  padding-left: 25px;
+}
+.accordiancontent {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b676f;
+}
+.accordianwrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.accordiancontentwrapper {
+  display: none;
+}
+.showaccordian {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.miniwrapper3 img {
+  cursor: pointer;
+}
 .wrapper4 {
   display: flex;
+
   gap: 100px;
 }
 .accordian {
