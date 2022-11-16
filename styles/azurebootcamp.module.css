@@ -178,6 +178,7 @@
 }
 .miniwrapper33 {
   display: flex;
+  align-items: center;
   gap: 10px;
   padding-left: 25px;
 }

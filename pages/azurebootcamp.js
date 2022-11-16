@@ -240,7 +240,7 @@ const AzureBootcamp = () => {
                                 </div>
                                 <div className={styles.miniwrapper33}>
 
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>•Restricting traffic to apps using Azure Application Gateway</div>
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Restricting traffic to apps using Azure Application Gateway</div>
 
                                 </div>
                                 <div className={styles.miniwrapper33}>
@@ -333,7 +333,7 @@ const AzureBootcamp = () => {
                                 <div className={styles.miniwrapper33}>
 
                                     <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Access Control on the subscription
-                                        •Overview of Azure resource manager</div>
+                                        Overview of Azure resource manager</div>
 
                                 </div>
                                 <div className={styles.miniwrapper33}>
@@ -757,12 +757,12 @@ const AzureBootcamp = () => {
                             <div className={accordian == "14" ? styles.showaccordian : styles.accordiancontentwrapper}>
                                 <div className={styles.miniwrapper33}>
 
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>•Create pipeline for azure web app container</div>
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Create pipeline for azure web app container</div>
 
                                 </div>
                                 <div className={styles.miniwrapper33}>
 
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>•Create pipeline for AKS cluster</div>
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Create pipeline for AKS cluster</div>
 
                                 </div>
                                 <div className={styles.miniwrapper33}>
@@ -853,8 +853,150 @@ const AzureBootcamp = () => {
 
 
                         </div>
+                        <div className={styles.accordianwrapper}>
+                            <div className={styles.miniwrapper3}>
+                                <img onClick={e => { handleClickA(17) }} src="plus.svg" alt="" />  <div className={styles.accordian}>Implementing Deployment Models and Services</div>
+                            </div>
+                            <div className={accordian == "17" ? styles.showaccordian : styles.accordiancontentwrapper}>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Configure IaaS and PaaS services on Azure. Also, deploy a containerized docker application on Azure Web Apps using the Container registry.</div>
+
+                                </div>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Deployment Modules and Deployment Options</div>
+
+                                </div>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Deployment Patterns
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                        <div className={styles.accordianwrapper}>
+                            <div className={styles.miniwrapper3}>
+                                <img onClick={e => { handleClickA(18) }} src="plus.svg" alt="" />  <div className={styles.accordian}>Implementing Continuous deployment</div>
+                            </div>
+                            <div className={accordian == "18" ? styles.showaccordian : styles.accordiancontentwrapper}>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Configure deployment process using approval mechanism and automating the deployments</div>
+
+                                </div>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Configure pre and post approval mechanism</div>
+
+                                </div>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Configuring gates
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
                     </div>
                     <div className={styles.accordians2}>
+                        <div className={styles.accordianwrapper}>
+                            <div className={styles.miniwrapper3}>
+                                <img onClick={e => { handleClickA(13) }} src="plus.svg" alt="" />  <div className={styles.accordian}>Tasks</div>
+                            </div>
+                            <div className={accordian == "13" ? styles.showaccordian : styles.accordiancontentwrapper}>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Implement Continuous Integration with Azure Pipelines</div>
+
+                                </div>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Integrate External Source Control with Azure Pipelines</div>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>  <div className={styles.accordianwrapper}>
+                            <div className={styles.miniwrapper3}>
+                                <img onClick={e => { handleClickA(14) }} src="plus.svg" alt="" />  <div className={styles.accordian}>Tasks</div>
+                            </div>
+                            <div className={accordian == "14" ? styles.showaccordian : styles.accordiancontentwrapper}>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Deploy multi container to AKS</div>
+
+                                </div>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Modernizing ASP.NET Application to Azure</div>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>  <div className={styles.accordianwrapper}>
+                            <div className={styles.miniwrapper3}>
+                                <img onClick={e => { handleClickA(15) }} src="plus.svg" alt="" />  <div className={styles.accordian}>Tasks</div>
+                            </div>
+                            <div className={accordian == "15" ? styles.showaccordian : styles.accordiancontentwrapper}>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Using White Source to Manage Open Source Security and License</div>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                        <div className={styles.accordianwrapper}>
+                            <div className={styles.miniwrapper3}>
+                                <img onClick={e => { handleClickA(16) }} src="plus.svg" alt="" />  <div className={styles.accordian}>Tasks</div>
+                            </div>
+                            <div className={accordian == "16" ? styles.showaccordian : styles.accordiancontentwrapper}>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Configuring CI/CD Pipeline as Code with YAML & Classic Editor</div>
+
+                                </div>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Using secrets in the pipeline with Azure Key vault Setting up and Running Functional Tests</div>
+
+                                </div>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Release deployment control using Azure Monitor as release gate
+                                    </div>
+
+                                </div>
+                                <div className={styles.miniwrapper33}>
+
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Create a release Dashboard to share information, monitor progress, and trends</div>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
                         <div className={styles.accordianwrapper}>
                             <div className={styles.miniwrapper3}>
                                 <img onClick={e => { handleClickA(17) }} src="plus.svg" alt="" />  <div className={styles.accordian}>Tasks</div>
@@ -862,175 +1004,32 @@ const AzureBootcamp = () => {
                             <div className={accordian == "17" ? styles.showaccordian : styles.accordiancontentwrapper}>
                                 <div className={styles.miniwrapper33}>
 
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Configure a CI/CD pipeline using classic and manage your secrets using Azure Vault</div>
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Feature Flag Management using Launch Darkly</div>
 
                                 </div>
                                 <div className={styles.miniwrapper33}>
 
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Configure Azure Monitor as a part of the Release Deployment and create a release dashboard to collect and share information.</div>
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Deploying a Dockized app to Azure Web App for Containers</div>
 
                                 </div>
-                                <div className={styles.miniwrapper33}>
 
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Continuous Delivery
-                                    </div>
 
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Azure Release Pipeline</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Deployment Patterns</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Integrating Secrets with Release Pipeline</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Automating Health Inspection</div>
-
-                                </div>
 
                             </div>
 
 
-                        </div>  <div className={styles.accordianwrapper}>
+                        </div>
+                        <div className={styles.accordianwrapper}>
                             <div className={styles.miniwrapper3}>
                                 <img onClick={e => { handleClickA(18) }} src="plus.svg" alt="" />  <div className={styles.accordian}>Tasks</div>
                             </div>
                             <div className={accordian == "18" ? styles.showaccordian : styles.accordiancontentwrapper}>
                                 <div className={styles.miniwrapper33}>
 
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Configure a CI/CD pipeline using classic and manage your secrets using Azure Vault</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Configure Azure Monitor as a part of the Release Deployment and create a release dashboard to collect and share information.</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Continuous Delivery
-                                    </div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Azure Release Pipeline</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Deployment Patterns</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Integrating Secrets with Release Pipeline</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Automating Health Inspection</div>
+                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>??</div>
 
                                 </div>
 
-                            </div>
-
-
-                        </div>  <div className={styles.accordianwrapper}>
-                            <div className={styles.miniwrapper3}>
-                                <img onClick={e => { handleClickA(19) }} src="plus.svg" alt="" />  <div className={styles.accordian}>Tasks</div>
-                            </div>
-                            <div className={accordian == "19" ? styles.showaccordian : styles.accordiancontentwrapper}>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Configure a CI/CD pipeline using classic and manage your secrets using Azure Vault</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Configure Azure Monitor as a part of the Release Deployment and create a release dashboard to collect and share information.</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Continuous Delivery
-                                    </div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Azure Release Pipeline</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Deployment Patterns</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Integrating Secrets with Release Pipeline</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Automating Health Inspection</div>
-
-                                </div>
-
-                            </div>
-
-
-                        </div>  <div className={styles.accordianwrapper}>
-                            <div className={styles.miniwrapper3}>
-                                <img onClick={e => { handleClickA(20) }} src="plus.svg" alt="" />  <div className={styles.accordian}>Tasks</div>
-                            </div>
-                            <div className={accordian == "20" ? styles.showaccordian : styles.accordiancontentwrapper}>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Configure a CI/CD pipeline using classic and manage your secrets using Azure Vault</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Configure Azure Monitor as a part of the Release Deployment and create a release dashboard to collect and share information.</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Continuous Delivery
-                                    </div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Azure Release Pipeline</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Deployment Patterns</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Integrating Secrets with Release Pipeline</div>
-
-                                </div>
-                                <div className={styles.miniwrapper33}>
-
-                                    <img src="bullet.svg" alt="" /> <div className={styles.accordiancontent}>Automating Health Inspection</div>
-
-                                </div>
 
                             </div>
 
