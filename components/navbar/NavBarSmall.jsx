@@ -24,7 +24,7 @@ const NavBarSmall = () => {
                     <div className={styles.a} href="">Become a Mentor</div>
                     <div className={styles.a} href="">Blogs</div>
                     <div className={styles.a} href="">Contact</div>
-                    <div className={styles.button}>Login</div>
+                    <div className={styles.button}>Enroll Now</div>
                 </div>
             }
 

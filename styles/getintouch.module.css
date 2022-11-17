@@ -1,0 +1,10 @@
+.wrapper {
+  font-family: Inter;
+  padding: 40px;
+  background: var(--color-background);
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 600;
+}

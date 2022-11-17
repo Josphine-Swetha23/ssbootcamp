@@ -442,6 +442,12 @@
   border-color: var(--color-purple);
   outline: none;
 }
+.swiper {
+  z-index: 0;
+}
+.swiper2 {
+  z-index: 0;
+}
 
 @media screen and (max-width: 2000px) {
 }

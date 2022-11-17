@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import ModalCompTerms from '../components/modal/Modal'
+import ModalCompRefund from '../components/modal/ModalRefund'
 
 import NavBar from '../components/navbar/NavBar'
 
@@ -1170,8 +1172,9 @@ const AzureBootcamp = () => {
                     <div className={styles.footerdivider} />
                     <div className={styles.footerwrapper}>
                         <div className={styles.footerlinks}>
-                            <a className={styles.footerlink} href="">Refund Policy</a>
-                            <a className={styles.footerlink} href="">Terms & Conditions</a>
+                            <div className={styles.footerlink} href=""> <ModalCompRefund /> </div>
+                            <div className={styles.footerlink} href="">
+                                <ModalCompTerms /> </div>
                             <a className={styles.footerlink} href="">Privacy Policy</a>
                             <a className={styles.footerlink} href="">Disclaimer</a>
                         </div>
