@@ -1,32 +1,39 @@
-import React, { useState } from 'react'
+import React from 'react'
 import NavBar from '../components/navbar/NavBar'
 import Footer from '../components/footer/footer'
-import styles from '../styles/getintouch.module.css'
 
-const GetInTouch = () => {
-    const [email, setEmail] = useState("Email Address")
-    const handleClick = (e) => {
-        if (e.target.value == "Email Address") {
-            setEmail("")
-        }
+import styles from '../styles/enroll.module.css'
 
-    }
 
+const Enroll = () => {
     return (
-        <div>
+        <div className={styles.container} >
             <NavBar />
             <div className={styles.wrapper}>
-                <div className={styles.title}>  Get in Touch 🙌  </div>
-                <div className={styles.subtitle}>Our expert team will
-                    answer all your questions.
-                    Write an email to  <a href="mailto:hi@sightspectrum.com"> hi@sightspectrum.com</a> </div>
+                <div className={styles.title}>Enroll 👍</div>
+                <div className={styles.subtitle}>You are one step away to your dream job in <div className={styles.azurelogo}><img className={styles.alogotutor} src="azurelogo2.svg" alt="" />Azure</div> </div>
+
                 <div className={styles.inputs}>
                     <div className={styles.inputlabel}>
                         <div className={styles.label}>Name</div>
                         <input className={styles.input1} type="text" />
                     </div>
                     <div className={styles.inputlabel}>
+                        <div className={styles.label}>Education</div>
+                        <select className={styles.input1}  >
+                            <option value="null" > Null</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div className={styles.inputs}>
+                    <div className={styles.inputlabel}>
                         <div className={styles.label}>Email</div>
+                        <input className={styles.input1} type="text" />
+                    </div>
+                    <div className={styles.inputlabel}>
+                        <div className={styles.label}>Stream</div>
                         <input className={styles.input1} type="text" />
                     </div>
 
@@ -45,22 +52,31 @@ const GetInTouch = () => {
                     </div>
 
                 </div>
+
                 <div className={styles.inputs}>
                     <div className={styles.inputlabel2}>
-                        <div className={styles.label}>Message</div>
+                        <div className={styles.label}>Resume</div>
                         <textarea className={styles.input2} type="text" />
                     </div>
 
                 </div>
+                <div className={styles.flex}>
+                    <input type="checkbox" />
+                    <div className={styles.checkboxtxt}>I permit SightSpectrum and its
+                        team to contact me with
+                        updates and notifications via
+                        Email, SMS, Whatsapp, and Call.</div>
+                </div>
 
-                <div className={styles.button}>Send</div>
+                <div className={styles.button}>Submit</div>
+
+
             </div>
-
 
             <Footer />
 
-        </div >
+        </div>
     )
 }
 
-export default GetInTouch
+export default Enroll

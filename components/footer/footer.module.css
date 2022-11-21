@@ -1,0 +1,118 @@
+.footercontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0e011e;
+  padding: 60px 40px;
+}
+.footerwrappers {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+.footerwrapper {
+  display: flex;
+  gap: 60px;
+}
+.footerlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footerlink {
+  color: var(--color-white);
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footerlink a {
+  color: var(--color-white);
+}
+.footerdivider {
+  height: 95px;
+  width: 0px;
+  background: #fbf9fe;
+  opacity: 0.2;
+  border: 1px solid #fbf9fe;
+}
+.footertxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 30%;
+  gap: 6px;
+}
+.footertxt1 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--color-white);
+}
+.footertxt2 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fbf9fe;
+}
+/* subscribe*/
+.inputgroup {
+  display: flex;
+  align-items: center;
+}
+
+.emailinput {
+  min-height: 40px;
+  max-width: 240px;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid var(--color-white);
+
+  background-color: transparent;
+}
+.buttonsubmit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  max-width: 40px;
+  padding: 0.5em 1em;
+  border: 1px solid var(--color-white);
+
+  background-color: var(--color-purple);
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.buttonsubmit:hover {
+  background-color: #752fc6;
+}
+
+.emailinput:focus,
+.emailinput:focus-visible {
+  border-color: var(--color-purple);
+  outline: none;
+}
+
+@media screen and (max-width: 450px) {
+  .footerwrappers {
+    flex-direction: column;
+  }
+  .footerwrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footertxt {
+    width: 100%;
+  }
+  .footerdivider {
+    height: 0px;
+    width: 90%;
+  }
+}

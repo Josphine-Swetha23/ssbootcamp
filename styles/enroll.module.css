@@ -1,23 +1,42 @@
-.wrapper {
+.container {
   font-family: Inter;
-  padding: 40px;
-  background: var(--color-background);
+}
+.wrapper {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
+  padding: 50px;
 }
-
 .title {
   font-size: 40px;
   font-weight: 600;
 }
+
 .subtitle {
+  display: flex;
   font-size: 16px;
   font-weight: 400;
+  align-items: center;
 }
-.subtitle a {
-  color: linear-gradient(0deg, #6408cc, #6408cc);
+.alogotutor {
+  height: 15px;
+  width: 25px;
 }
+.azurelogo {
+  font-size: 14px;
+  font-weight: 600;
+
+  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 79px;
+  background: #0072c6;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
 .inputs {
   display: flex;
   justify-content: space-between;
@@ -67,4 +86,23 @@
 
   font-size: 20px;
   font-weight: 500;
+}
+.flex {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.flex input {
+  height: 24px;
+  width: 24px;
+  border: 1px solid #d6cde0;
+  border-radius: 8px;
+  padding: 10px;
+
+  outline: none;
+}
+.checkboxtxt {
+  font-size: 15px;
+  font-weight: 400;
+  color: #6b676f;
 }
