@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import Link from 'next/link'
 
 import styles from './navbarsmall.module.css'
 const NavBarSmall = () => {
@@ -24,7 +24,7 @@ const NavBarSmall = () => {
                     <div className={styles.a} href="">Become a Mentor</div>
                     <div className={styles.a} href="">Blogs</div>
                     <div className={styles.a} href="">Contact</div>
-                    <div className={styles.button}>Enroll Now</div>
+                    <div className={styles.button}> <Link href="/enroll">Enroll Now</Link>  </div>
                 </div>
             }
 

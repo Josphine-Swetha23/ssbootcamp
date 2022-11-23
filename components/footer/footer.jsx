@@ -1,19 +1,102 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 import ModalCompTerms from '../modal/Modal'
 import ModalCompRefund from '../modal/ModalRefund'
 import Link from 'next/link';
+import { useCollection } from "react-firebase-hooks/firestore"
+import { db } from '../../firebase/clientApp'
+import { collection, doc, getDoc, query, where, getDocs, addDoc } from "firebase/firestore";
 import styles from './footer.module.css'
+import { async } from '@firebase/util';
 
 const Footer = () => {
+    // const [dataExists, setDataExists] = useState("false")
+    const [emailid, setEmail] = useState("Email Address")
 
-    const [email, setEmail] = useState("Email Address")
     const handleClick = (e) => {
         if (e.target.value == "Email Address") {
             setEmail("")
         }
 
     }
+
+    const addemail = async (email_id) => {
+        await addDoc(collection(db, "email"), {
+            email_id,
+        })
+    }
+
+    const handleClickSubmit = async (e) => {
+
+
+        var mailformat = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+
+
+
+        if (emailid.match(mailformat)) {
+
+            // const querySnapshot = await getDocs(collection(db, "email"));
+
+            // querySnapshot.find((doc) => {
+            //     const data = doc.data().email_id == emailid
+
+            //     console.log(data);
+
+            // });
+            // const emailRef = collection(db, "email");
+
+            // const q = query(emailRef, where("email_id", "==", emailid));
+
+            // const querySnapshot = await getDocs(q);
+            // querySnapshot.forEach((doc) => {
+            //     setDataExists("true")
+            // });
+
+            // setTimeout(() => {
+
+            //     if (dataExists == "true") {
+
+
+            //         alert("email id already exist")
+            //         return setDataExists("false")
+            //     }
+            //     else {
+            addemail(emailid)
+            alert("Succesfully Subscribed");
+            setEmail("")
+
+            //     }
+            // }, 8000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        } else {
+
+
+            alert("Invalid email address!");
+
+
+
+
+
+        }
+
+    }
+
+
+
+
     return (
         <div className={styles.footercontainer}>
             <div className={styles.footerwrappers}>
@@ -55,8 +138,8 @@ const Footer = () => {
                         the technology right in your inbox.
                     </div>
                     <div className={styles.inputgroup}>
-                        <input type="email" onClick={handleClick} onChange={e => { setEmail(e.target.value) }} className={styles.emailinput} value={email} id="Email" name="Email" autocomplete="off" />
-                        <div className={styles.buttonsubmit}  >
+                        <input type="email" onClick={handleClick} onChange={e => { setEmail(e.target.value) }} className={styles.emailinput} value={emailid} id="Email" name="Email" autocomplete="off" />
+                        <div onClick={handleClickSubmit} className={styles.buttonsubmit}  >
                             <img src="tick.svg" alt="tick" />
                         </div>
                     </div>

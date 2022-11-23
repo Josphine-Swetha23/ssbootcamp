@@ -1,7 +1,6 @@
 import React from 'react'
 import NavBarSmall from './NavBarSmall'
 
-
 import styles from './navbar.module.css'
 import Link from 'next/link'
 
@@ -18,14 +17,14 @@ const NavBar = () => {
 
 
             <div className={styles.wrapper}>
-                <a href="">Courses</a>
+                <a className={styles.hidelink} href="">Courses</a>
 
-                <a href="">Free Assesment</a>
-                <a href="">Hire from us </a>
-                <a href="">Become a Mentor</a>
-                <a href="">Blogs</a>
-                <a href="">Contact</a>
-                <div className={styles.button}>Enroll Now</div>
+                <a className={styles.hidelink} href="">Free Assesment</a>
+                <a className={styles.hidelink} href="">Hire from us </a>
+                <a className={styles.hidelink} href="">Become a Mentor</a>
+                <a className={styles.hidelink} href="">Blogs</a>
+                <a className={styles.hidelink} href="">  <Link href="/getintouch" >Contact</Link> </a>
+                <div className={styles.button}>  <Link href="/enroll" > Enroll Now</Link> </div>
                 <NavBarSmall />
             </div>
         </div>

@@ -60,11 +60,30 @@
   align-items: center;
   height: 56px;
   width: 114px;
-
+  border-color: #ffffff;
   border-radius: 32px;
   background: #6814c9;
   color: #ffffff;
 
   font-size: 20px;
   font-weight: 500;
+}
+.flex {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.flex input {
+  height: 24px;
+  width: 24px;
+  border: 1px solid #d6cde0;
+  border-radius: 8px;
+  padding: 10px;
+
+  outline: none;
+}
+.checkboxtxt {
+  font-size: 15px;
+  font-weight: 400;
+  color: #6b676f;
 }

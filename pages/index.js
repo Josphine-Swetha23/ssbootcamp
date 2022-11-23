@@ -3,7 +3,7 @@ import Card from '../components/card/Card'
 import NavBar from '../components/navbar/NavBar'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from "swiper";
-
+import Footer from '../components/footer/footer'
 import Link from 'next/link';
 import ModalCompTerms from '../components/modal/Modal'
 import ModalCompRefund from '../components/modal/ModalRefund'
@@ -34,7 +34,7 @@ const HomePage = () => {
           <div className={styles.herotag}>Learn the skills from the tech gurus<br />
             But learning it from the core, first hand, makes you one!</div>
 
-          <div className={styles.herobutton}>Join for free</div>
+          <div className={styles.herobutton}> <Link href="/enroll" >Join for free</Link> </div>
 
 
 
@@ -64,7 +64,7 @@ const HomePage = () => {
               </div>
               <div className={styles.cardtag}>NEXT BATCH STARTS IN 3 WEEKS</div>
               <div className={styles.cardwrapper}>
-                <div className={styles.button1}>Enroll Now</div>
+                <div className={styles.button1}>  <Link href="/enroll" >Enroll Now</Link> </div>
                 <div className={styles.cardexplore}>
                   <div className={styles.button2}>Explore Course</div>
                   <img src="rightarrow.svg" alt="rightarrow" />
@@ -88,7 +88,7 @@ const HomePage = () => {
               </div>
               <div className={styles.cardtag}>NEXT BATCH STARTS IN 3 WEEKS</div>
               <div className={styles.cardwrapper}>
-                <div className={styles.button1}>Enroll Now</div>
+                <div className={styles.button1}>  <Link href="/enroll" >Enroll Now  </Link>  </div>
                 <div className={styles.cardexplore}>
                   <div className={styles.button2}>  <Link href="/azurebootcamp" > Explore Course</Link></div>
                   <img src="rightarrow.svg" alt="rightarrow" />
@@ -365,54 +365,7 @@ const HomePage = () => {
 
         </div>
       </div>
-      <div className={styles.footercontainer}>
-        <div className={styles.footerwrappers}>
-          <div className={styles.footerwrapper}>
-            <div className={styles.footerlinks}>
-              <a className={styles.footerlink} href="">Home</a>
-              <a className={styles.footerlink} href="">Services</a>
-              <a className={styles.footerlink} href="">Solutions</a>
-            </div>
-            <div className={styles.footerlinks}>
-              <a className={styles.footerlink} href="">Industries</a>
-              <a className={styles.footerlink} href="">Who We Are</a>
-              <a className={styles.footerlink} href="">Get in Touch</a>
-            </div>
-
-          </div>
-          <div className={styles.footerdivider} />
-          <div className={styles.footerwrapper}>
-            <div className={styles.footerlinks}>
-              <div className={styles.footerlink} href=""><ModalCompRefund /></div>
-              <div className={styles.footerlink} href=""><ModalCompTerms /></div>
-              <a className={styles.footerlink} href="">Privacy Policy</a>
-              <a className={styles.footerlink} href="">Disclaimer</a>
-            </div>
-            <div className={styles.footerlinks}>
-              <a className={styles.footerlink} href="">Accessibilty</a>
-              <a className={styles.footerlink} href="">Copyright Policy</a>
-              <a className={styles.footerlink} href="">Customer Charter</a>
-            </div>
-
-          </div>
-          <div className={styles.footerdivider} />
-          <div className={styles.footertxt}>
-            <div className={styles.footertxt1}>Stay Updated!
-              🔥
-            </div>
-            <div className={styles.footertxt2}>Get updates on new programs, tips and snippets on
-              the technology right in your inbox.
-            </div>
-
-          </div>
-        </div>
-        <div className={styles.inputgroup}>
-          <input type="email" onClick={handleClick} className={styles.emailinput} value={email} id="Email" name="Email" autocomplete="off" />
-          <div className={styles.buttonsubmit}  >
-            <img src="tick.svg" alt="tick" />
-          </div>
-        </div>
-      </div>
+      <Footer />
     </div >
   )
 }
