@@ -59,7 +59,7 @@ const AzureBootcamp = () => {
                             <div className={styles.iconsub}>100%</div>
                         </div>
                     </div>
-                    <div className={styles.enrollbutton}>Enroll Now</div>
+
                 </div>
                 <div className={styles.instructorcard}>
                     <div className={styles.icardtitle}>instructor</div>
@@ -72,6 +72,7 @@ const AzureBootcamp = () => {
 
                 </div>
             </div>
+            <div className={styles.flexcenter}><div className={styles.enrollbutton}>Enroll Now</div></div>
             <div className={`${styles.wrapper2} ${styles.backgroundwhite}`}>
                 <div className={styles.title}>About the Course</div>
                 <div className={styles.twodivs}>

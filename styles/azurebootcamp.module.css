@@ -4,7 +4,7 @@
   flex-direction: column;
   gap: 35px;
   background: var(--color-background);
-  width: fit-content;
+  /* width: fit-content; */
 }
 .wrapper1 {
   display: flex;
@@ -29,6 +29,9 @@
   color: #6b676f;
   line-height: 24px;
 }
+.flexcenter {
+  padding-left: 95px;
+}
 .iconwrappers {
   display: flex;
   gap: 80px;
@@ -43,10 +46,12 @@
 .icontitle {
   font-size: 16px;
   font-weight: 400;
+  text-align: center;
 }
 .iconsub {
   color: #6b676f;
   font-size: 14px;
+  text-align: center;
   font-weight: 400;
 }
 /* .enrollbutton {
@@ -290,4 +295,78 @@
 .enrollbutton:active:before {
   background: #3a0ca3;
   transition: background 0s;
+}
+
+@media screen and (max-width: 1150px) {
+  .wrapper1 {
+    flex-direction: column;
+    padding: 20px 45px;
+    gap: 80px;
+  }
+  .miniwrapper1 {
+    width: 100%;
+  }
+  .iconwrappers {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .wrapper4 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .wrapper2 {
+    padding: 20px 45px;
+    flex-wrap: wrap;
+  }
+  .wrapper5 {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .wrapper6 {
+    flex-wrap: wrap;
+  }
+  .flexcenter {
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .accordians2 {
+    width: 45%;
+  }
+
+  .accordiancontent {
+    /* width: 50%; */
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .iconwrapper {
+    width: 85%;
+  }
+  .twodivs {
+    flex-direction: column;
+  }
+  .wrapper5 {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .wrapper7 {
+    flex-direction: column;
+  }
+  .wrapper1 {
+  }
+  .accordians {
+    width: 100%;
+  }
+  .accordians2 {
+    width: 100%;
+  }
+
+  .coursedesc {
+    width: 280px;
+  }
+  .wrapper8 {
+    width: 100%;
+  }
 }
