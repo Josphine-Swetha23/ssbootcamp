@@ -266,6 +266,10 @@
   font-weight: 500;
   color: var(--color);
 }
+.enrollbutton a {
+  width: 10em;
+  text-align: center;
+}
 
 .enrollbutton:before {
   content: "";
@@ -277,7 +281,7 @@
   border-radius: 50%;
 }
 
-.enrollbutton:hover {
+.enrollbutton a:hover {
   color: #fff;
 }
 

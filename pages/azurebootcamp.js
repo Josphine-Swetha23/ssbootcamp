@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Footer from '../components/footer/footer'
-
+import Link from 'next/link';
 import NavBar from '../components/navbar/NavBar'
 
 import styles from '../styles/azurebootcamp.module.css'
@@ -72,7 +72,7 @@ const AzureBootcamp = () => {
 
                 </div>
             </div>
-            <div className={styles.flexcenter}><div className={styles.enrollbutton}>Enroll Now</div></div>
+            <div className={styles.flexcenter}><div className={styles.enrollbutton}>  <Link href="/enroll" >Enroll Now</Link> </div></div>
             <div className={`${styles.wrapper2} ${styles.backgroundwhite}`}>
                 <div className={styles.title}>About the Course</div>
                 <div className={styles.twodivs}>
@@ -1151,7 +1151,8 @@ const AzureBootcamp = () => {
             </div>
 
             <div className={styles.wrapper9}>
-                <div className={styles.enrollbutton}>Enroll Now</div>
+
+                <div className={styles.enrollbutton}> <Link href="/enroll" > Enroll Now</Link></div>
             </div>
 
             <Footer />
