@@ -462,7 +462,10 @@
   .numwrappers1 {
   }
   .biconwrapper {
-    padding: 0px 20px;
+    gap: 5px;
+    padding-left: 20px;
+
+    width: 95%;
   }
   .swiper {
     display: none;
