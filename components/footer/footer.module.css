@@ -9,12 +9,12 @@
 }
 .footerwrappers {
   display: flex;
-  gap: 60px;
+  gap: 25px;
   justify-content: center;
 }
 .footerwrapper {
   display: flex;
-  gap: 60px;
+  gap: 25px;
 }
 .footerlinks {
   display: flex;
@@ -44,7 +44,7 @@
   justify-content: space-between;
 
   width: 30%;
-  gap: 6px;
+  gap: 20px;
 }
 .footertxt1 {
   font-family: Inter;
