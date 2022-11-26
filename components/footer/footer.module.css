@@ -115,15 +115,15 @@
     height: 0px;
     width: 90%;
   }
-}
-@media screen and (max-width: 450px) {
   .footerlink {
-    font-size: 30px;
+    font-size: 20px;
   }
   .footertxt1 {
-    font-size: 40px;
-  }
-  .footertxt2 {
     font-size: 30px;
   }
+  .footertxt2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
 }
