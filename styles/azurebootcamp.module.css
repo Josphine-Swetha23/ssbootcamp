@@ -350,15 +350,20 @@
   }
   .twodivs {
     flex-direction: column;
+    gap: 30px;
   }
   .wrapper5 {
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
   }
   .wrapper7 {
     flex-direction: column;
   }
   .wrapper1 {
+    padding: 15px 25px;
+  }
+  .wrapper2 {
+    padding: 15px 25px;
   }
   .accordians {
     width: 100%;
@@ -368,9 +373,15 @@
   }
 
   .coursedesc {
-    width: 280px;
+    width: 370px;
   }
   .wrapper8 {
     width: 100%;
+  }
+  .wrapper4 {
+    gap: 30px;
+  }
+  .wrapper6 {
+    gap: 30px;
   }
 }

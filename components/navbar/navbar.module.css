@@ -59,6 +59,9 @@
 }
 
 @media screen and (max-width: 450px) {
+  .container {
+    padding: 15px 25px;
+  }
   .button {
     display: none;
   }

@@ -85,6 +85,9 @@ input[type]:checked ~ span.middle {
   letter-spacing: 0em;
   color: var(--color-black);
 }
+.a a {
+  color: var(--color-black);
+}
 .button {
   display: none;
 

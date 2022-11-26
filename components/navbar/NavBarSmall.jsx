@@ -19,11 +19,9 @@ const NavBarSmall = () => {
                 toggle && < div className={styles.links}>
                     <div className={styles.a} href="">Courses</div>
 
-                    <div className={styles.a} href="">Free Assesment</div>
-                    <div className={styles.a} href="">Hire from us </div>
-                    <div className={styles.a} href="">Become a Mentor</div>
-                    <div className={styles.a} href="">Blogs</div>
-                    <div className={styles.a} href="">Contact</div>
+                    <div className={styles.a} href="">  <Link href="/comingsoon" >Free Assesment</Link> </div>
+                    <div className={styles.a} href="">  <Link href="/comingsoon" >Become a Mentor</Link> </div>
+                    <div className={styles.a} href=""> <Link href="/getintouch" >Contact</Link> </div>
                     <div className={styles.button}> <Link href="/enroll">Enroll Now</Link>  </div>
                 </div>
             }
@@ -35,3 +33,5 @@ const NavBarSmall = () => {
 }
 
 export default NavBarSmall
+// <div className={styles.a} href="">Blogs</div>
+                    // <div className={styles.a} href="">  Hire from us </div>
