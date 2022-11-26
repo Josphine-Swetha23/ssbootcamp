@@ -116,3 +116,14 @@
     width: 90%;
   }
 }
+@media screen and (max-width: 450px) {
+  .footerlink {
+    font-size: 30px;
+  }
+  .footertxt1 {
+    font-size: 40px;
+  }
+  .footertxt2 {
+    font-size: 30px;
+  }
+}
