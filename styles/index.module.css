@@ -1,7 +1,6 @@
 .container {
   font-family: inter;
   min-height: 100vh;
-  width: fit-content;
 }
 .wrapper1 {
   display: flex;
@@ -411,29 +410,6 @@
     display: flex;
     flex-direction: column;
     gap: 35px;
-  }
-  .herobutton {
-    width: 455px;
-    height: 105px;
-    border-radius: 60px;
-    font-size: 40px;
-  }
-  .guaranteetext {
-    font-size: 42px;
-  }
-  .herotitle {
-    font-size: 145px;
-    line-height: 150px;
-    width: 100%;
-  }
-  .herotag {
-    font-size: 46px;
-
-    line-height: 60px;
-  }
-  .heroimg {
-    height: 785px;
-    max-width: 973px;
   }
 
   .wrapper2cards {
