@@ -45,6 +45,9 @@ button {
   display: flex;
   justify-content: center;
 }
+.swiper {
+  width: 400px;
+}
 
 input::-webkit-outer-spin-button,
 ::-webkit-inner-spin-button {
