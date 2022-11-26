@@ -18,7 +18,7 @@ const Enroll = () => {
         education: "",
         email: "",
         stream: "",
-        mobilenumber: 0,
+        mobilenumber: "",
         howdidufindus: "",
         permission: false,
     })
@@ -27,17 +27,33 @@ const Enroll = () => {
 
 
     const addenrollDocument = async (enroll_data) => {
+
+
+
         await addDoc(collection(db, "enroll_data"), {
             enroll_data,
         })
     }
     const handleChange = (e, data) => {
-        const { value } = e.target;
+        const { value, maxLength } = e.target;
+        const message = value.slice(0, maxLength)
 
-        setEnrollData({ ...enrollData, [data]: value })
+
+
+        setEnrollData({ ...enrollData, [data]: message })
+
+
+
+
+
 
     }
     const handleClick = () => {
+
+        const mailformat = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+
+
+
         if (enrollData.name.length == 0) {
             alert("Please fill in the appropriate fields")
         }
@@ -56,9 +72,14 @@ const Enroll = () => {
         else if (enrollData.howdidufindus.length == 0) {
             alert("Please fill in the appropriate fields")
         }
-        else {
+        else if (enrollData.email.match(mailformat)) {
+
             addenrollDocument(enrollData)
             router.push("/")
+            alert("Successfully enrolled")
+        }
+        else {
+            alert("Please enter valid email")
         }
     }
     const handleClickCheck = () => {
@@ -76,7 +97,7 @@ const Enroll = () => {
                 <div className={styles.inputs}>
                     <div className={styles.inputlabel}>
                         <div className={styles.label}>Name</div>
-                        <input onChange={(e) => { handleChange(e, "name") }} className={styles.input1} type="text" />
+                        <input onChange={(e) => { handleChange(e, "name") }} value={enrollData.name} maxLength={40} className={styles.input1} type="text" />
                     </div>
                     <div className={styles.inputlabel}>
                         <div className={styles.label}>Education</div>
@@ -100,18 +121,18 @@ const Enroll = () => {
                 <div className={styles.inputs}>
                     <div className={styles.inputlabel}>
                         <div className={styles.label}>Email</div>
-                        <input onChange={(e) => { handleChange(e, "email") }} className={styles.input1} type="email" />
+                        <input onChange={(e) => { handleChange(e, "email") }} value={enrollData.email} maxLength={40} className={styles.input1} type="email" />
                     </div>
                     <div className={styles.inputlabel}>
                         <div className={styles.label}>Stream</div>
-                        <input onChange={(e) => { handleChange(e, "stream") }} className={styles.input1} type="text" />
+                        <input onChange={(e) => { handleChange(e, "stream") }} value={enrollData.stream} maxLength={40} className={styles.input1} type="text" />
                     </div>
 
                 </div>
                 <div className={styles.inputs}>
                     <div className={styles.inputlabel}>
                         <div className={styles.label}>Mobile Number</div>
-                        <input onChange={(e) => { handleChange(e, "mobilenumber") }} className={styles.input1} type="number" />
+                        <input onChange={(e) => { handleChange(e, "mobilenumber") }} value={enrollData.mobilenumber} maxLength={10} className={styles.input1} type="number" />
                     </div>
                     <div className={styles.inputlabel}>
                         <div className={styles.label}>How Did You

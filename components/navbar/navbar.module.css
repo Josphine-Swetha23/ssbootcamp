@@ -26,6 +26,9 @@
   letter-spacing: 0em;
   color: var(--color-black);
 }
+.hidelink a {
+  color: var(--color-black);
+}
 .button {
   display: flex;
   justify-content: center;

@@ -33,8 +33,8 @@ const HomePage = () => {
             career level 🎓</div>
           <div className={styles.herotag}>Learn the skills from the tech gurus<br />
             But learning it from the core, first hand, makes you one!</div>
+          <div className={styles.enrollbutton}>  <Link href="/enroll" >Join for free</Link> </div>
 
-          <div className={styles.herobutton}> <Link href="/enroll" >Join for free</Link> </div>
 
 
 

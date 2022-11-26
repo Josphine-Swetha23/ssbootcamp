@@ -13,13 +13,15 @@ const GetInTouch = () => {
 
         email: "",
 
-        mobilenumber: 0,
+        mobilenumber: "",
         howdidufindus: "",
         message: "",
         permission: false,
     })
 
     const handleClick = () => {
+
+        const mailformat = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
         if (getInTouchData.name.length == 0) {
             alert("Please fill in the appropriate fields")
         }
@@ -37,11 +39,16 @@ const GetInTouch = () => {
         else if (getInTouchData.message.length == 0) {
             alert("Please fill in the appropriate fields")
         }
-        else {
+        else if (getInTouchData.email.match(mailformat)) {
+
             addGetInTouchDocument(getInTouchData)
             router.push("/")
             alert("Succesfully contacted us")
         }
+        else {
+            alert("Please enter valid email")
+        }
+
     }
 
     const addGetInTouchDocument = async (get_in_touch_data) => {
@@ -51,9 +58,10 @@ const GetInTouch = () => {
     }
 
     const handleChange = (e, data) => {
-        const { value } = e.target;
+        const { value, maxLength } = e.target;
+        const message = value.slice(0, maxLength)
 
-        setGetInTouchData({ ...getInTouchData, [data]: value })
+        setGetInTouchData({ ...getInTouchData, [data]: message })
 
     }
     const handleClickCheck = () => {
@@ -73,18 +81,18 @@ const GetInTouch = () => {
                 <div className={styles.inputs}>
                     <div className={styles.inputlabel}>
                         <div className={styles.label}>Name</div>
-                        <input onChange={(e) => { handleChange(e, "name") }} className={styles.input1} type="text" />
+                        <input onChange={(e) => { handleChange(e, "name") }} value={getInTouchData.name} maxLength={40} className={styles.input1} type="text" />
                     </div>
                     <div className={styles.inputlabel}>
                         <div className={styles.label}>Email</div>
-                        <input onChange={(e) => { handleChange(e, "email") }} className={styles.input1} type="text" />
+                        <input onChange={(e) => { handleChange(e, "email") }} value={getInTouchData.email} maxLength={40} className={styles.input1} type="text" />
                     </div>
 
                 </div>
                 <div className={styles.inputs}>
                     <div className={styles.inputlabel}>
                         <div className={styles.label}>Mobile Number</div>
-                        <input onChange={(e) => { handleChange(e, "mobilenumber") }} className={styles.input1} type="text" />
+                        <input onChange={(e) => { handleChange(e, "mobilenumber") }} value={getInTouchData.mobilenumber} maxLength={10} className={styles.input1} type="number" />
                     </div>
                     <div className={styles.inputlabel}>
                         <div className={styles.label}>How Did You
@@ -105,7 +113,7 @@ const GetInTouch = () => {
                 <div className={styles.inputs}>
                     <div className={styles.inputlabel2}>
                         <div className={styles.label}>Message</div>
-                        <textarea onChange={(e) => { handleChange(e, "message") }} className={styles.input2} type="text" />
+                        <textarea onChange={(e) => { handleChange(e, "message") }} value={getInTouchData.message} maxLength={200} className={styles.input2} type="text" />
                     </div>
 
                 </div>

@@ -39,23 +39,62 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
-.herobutton {
-  width: 160px;
-  height: 40px;
-  border-radius: 30px;
+.enrollbutton {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--color-purple);
-  cursor: pointer;
+  font-family: var(--font-base);
 
-  font-size: 20px;
+  cursor: pointer;
+  --color: #560bad;
+
+  width: 10em;
+  height: 3.6em;
+  line-height: 2.5em;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 0;
+  font-size: 18px;
+  border-radius: 6px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0em;
+  color: var(--color);
 }
-.herobutton a {
-  color: var(--color-white);
+.enrollbutton a {
+  width: 10em;
+  text-align: center;
+}
+
+.enrollbutton:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 235px;
+  border-radius: 50%;
+}
+
+.enrollbutton a:hover {
+  color: #fff;
+}
+
+.enrollbutton:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.enrollbutton:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.enrollbutton:active:before {
+  background: #3a0ca3;
+  transition: background 0s;
 }
 .wrapper2 {
   background: var(--color-background-2);

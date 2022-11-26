@@ -1,5 +1,6 @@
 .container {
   font-family: Inter;
+  height: inherit;
 }
 .wrapper {
   display: flex;

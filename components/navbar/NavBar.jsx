@@ -19,11 +19,9 @@ const NavBar = () => {
             <div className={styles.wrapper}>
                 <a className={styles.hidelink} href="">Courses</a>
 
-                <a className={styles.hidelink} href="">Free Assesment</a>
-                <a className={styles.hidelink} href="">Hire from us </a>
-                <a className={styles.hidelink} href="">Become a Mentor</a>
-                <a className={styles.hidelink} href="">Blogs</a>
-                <a className={styles.hidelink} href="">  <Link href="/getintouch" >Contact</Link> </a>
+                <div className={styles.hidelink} href=""> <Link href="/comingsoon">Free Assesment</Link > </div>
+                <div className={styles.hidelink} href="">  <Link href="/getintouch" >Contact</Link> </div>
+                <div className={styles.hidelink} href="">  <Link href="/comingsoon">Become a Mentor</Link> </div>
                 <div className={styles.button}>  <Link href="/enroll" > Enroll Now</Link> </div>
                 <NavBarSmall />
             </div>
@@ -32,3 +30,8 @@ const NavBar = () => {
 }
 
 export default NavBar
+
+
+
+            // <a className={styles.hidelink} href="">Hire from us </a>
+            // <a className={styles.hidelink} href="">Blogs</a>

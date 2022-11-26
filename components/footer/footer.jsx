@@ -101,14 +101,10 @@ const Footer = () => {
         <div className={styles.footercontainer}>
             <div className={styles.footerwrappers}>
                 <div className={styles.footerwrapper}>
+
                     <div className={styles.footerlinks}>
-                        <a className={styles.footerlink} href="">Home</a>
-                        <a className={styles.footerlink} href="">Services</a>
-                        <a className={styles.footerlink} href="">Solutions</a>
-                    </div>
-                    <div className={styles.footerlinks}>
-                        <a className={styles.footerlink} href="">Industries</a>
-                        <a className={styles.footerlink} href="">Who We Are</a>
+                        <div className={styles.footerlink} href="">  <Link href="/">Home</Link> </div>
+                        <div className={styles.footerlink} href=""> <Link href="/comingsoon" >Who We Are</Link> </div>
                         <div className={styles.footerlink} >   <Link className={styles.footerlink1} href="/getintouch"  >Get in Touch</Link>  </div>
                     </div>
 
@@ -119,13 +115,14 @@ const Footer = () => {
                         <div className={styles.footerlink} href=""> <ModalCompRefund /> </div>
                         <div className={styles.footerlink} href="">
                             <ModalCompTerms /> </div>
-                        <a className={styles.footerlink} href="">Privacy Policy</a>
-                        <a className={styles.footerlink} href="">Disclaimer</a>
+                        <div className={styles.footerlink} href=""> <Link href="/comingsoon" >Privacy Policy</Link> </div>
+
                     </div>
+                    <div className={styles.footerdivider} />
                     <div className={styles.footerlinks}>
-                        <a className={styles.footerlink} href="">Accessibilty</a>
-                        <a className={styles.footerlink} href="">Copyright Policy</a>
-                        <a className={styles.footerlink} href="">Customer Charter</a>
+                        <div className={styles.footerlink} > <Link href="/comingsoon" >Accessibilty</Link> </div>
+                        <div className={styles.footerlink} > <Link href="/comingsoon" >Copyright Policy</Link>  </div>
+
                     </div>
 
                 </div>

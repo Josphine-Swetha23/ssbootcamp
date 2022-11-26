@@ -48,7 +48,7 @@ function ModalCompTerms() {
 
                     <div className={styles.x} onClick={closeModal}><img src="x.svg" alt="" /></div>
                     <div className={styles.wrapper}>
-                        <div className={styles.title}>Terms & Use</div>
+                        <div className={styles.title}>Terms & Condition</div>
                         <div className={styles.subtitle}>The following terms and conditions are subject to change at any time. This page will
                             always display the most recent alterations or modifications.
 
