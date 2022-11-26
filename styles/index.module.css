@@ -456,10 +456,21 @@
   .wrapper3 {
     padding: 15px 25px;
   }
+  .wrapper4 {
+    padding: 15px 25px;
+  }
+  .wrapper5 {
+    padding: 15px 25px;
+  }
   .wrappertxt3 {
     text-align: center;
   }
   .numwrappers1 {
+  }
+  .numtxt {
+    display: flex;
+    align-items: center;
+    width: 100%;
   }
   .biconwrapper {
     gap: 5px;
@@ -481,7 +492,10 @@
     flex-direction: column;
   }
   .numwrapper {
-    width: 400px;
+    width: 100%;
+  }
+  .tutorcard {
+    width: 100%;
   }
   .wrapper2card {
     width: 100%;
