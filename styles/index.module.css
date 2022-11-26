@@ -437,8 +437,8 @@
 
 @media screen and (max-width: 450px) {
   .heroimg {
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 90%;
   }
   .herotitle {
     width: 100%;
