@@ -454,6 +454,10 @@
   .wrapper2 {
     padding: 15px 25px;
   }
+  .wrapper2card {
+    flex-direction: column;
+    align-items: center;
+  }
   .wrapper3 {
     padding: 15px 25px;
   }
@@ -472,6 +476,9 @@
     width: 100%;
   }
   .benefitswrappers {
+    width: 100%;
+  }
+  .benefitswrapper {
     width: 100%;
   }
   .numwrappers1 {
