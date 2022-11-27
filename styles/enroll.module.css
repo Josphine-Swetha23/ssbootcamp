@@ -111,3 +111,18 @@
   font-weight: 400;
   color: #6b676f;
 }
+@media screen and (max-width: 450px) {
+  .inputs {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .input1 {
+    width: 100%;
+  }
+  .input2 {
+    width: 100%;
+  }
+  .inputlabel {
+    width: 100%;
+  }
+}

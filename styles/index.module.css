@@ -361,9 +361,7 @@
   margin-top: 40px;
   margin-bottom: 60px;
 }
-.flexcenter {
-  margin: 0 auto;
-}
+
 .wrapper5 {
   display: flex;
   flex-direction: column;
@@ -436,6 +434,9 @@
 }
 
 @media screen and (max-width: 450px) {
+  .flexcenter {
+    margin: 0 auto;
+  }
   .heroimg {
     height: 350px;
     width: 90%;
@@ -468,6 +469,9 @@
     text-align: center;
   }
   .wrappertxt {
+    width: 100%;
+  }
+  .benefitswrappers {
     width: 100%;
   }
   .numwrappers1 {
