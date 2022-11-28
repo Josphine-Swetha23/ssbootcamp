@@ -99,7 +99,23 @@ const Footer = () => {
 
     return (
         <div className={styles.footercontainer}>
+
             <div className={styles.footerwrappers}>
+                <ul className={styles.wrapper}>
+                    <li className={`${styles.icon} ${styles.facebook}`}>
+                        <span className={styles.tooltip}>Linked In</span>
+                        <span>  <Link href="https://www.linkedin.com/company/sight-spectrum-llc/?originalSubdomain=in"><img className={styles.social} src='linkedin-in.svg' /></Link>   </span>
+                    </li>
+                    <li className={`${styles.icon} ${styles.twitter}
+    `  }>
+                        <span className={styles.tooltip}>Twitter</span>
+                        <span> <Link href="https://twitter.com/SightSpectrumUS" ><img className={styles.social} src='twitter.svg' /></Link>  </span>
+                    </li>
+                    <li className={`${styles.icon} ${styles.instagram}`}>
+                        <span className={styles.tooltip}>Instagram</span>
+                        <span>  <Link href="https://www.instagram.com/sightspectrumus/" ><img className={styles.social} src='instagram.svg' /></Link> </span>
+                    </li >
+                </ul >
                 <div className={styles.footerwrapper}>
 
                     <div className={styles.footerlinks}>
@@ -109,8 +125,8 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <div className={styles.footerdivider} />
                 <div className={styles.footerwrapper}>
+                    <div className={styles.footerdivider} />
                     <div className={styles.footerlinks}>
                         <div className={styles.footerlink} href=""> <ModalCompRefund /> </div>
                         <div className={styles.footerlink} href="">
@@ -118,16 +134,22 @@ const Footer = () => {
                         <div className={styles.footerlink} href=""> <Link href="/comingsoon" >Privacy Policy</Link> </div>
 
                     </div>
+
+
+
+                </div>
+                <div className={styles.footerwrapper}>
                     <div className={styles.footerdivider} />
+
                     <div className={styles.footerlinks}>
                         <div className={styles.footerlink} > <Link href="/comingsoon" >Accessibilty</Link> </div>
                         <div className={styles.footerlink} > <Link href="/comingsoon" >Copyright Policy</Link>  </div>
 
                     </div>
-
                 </div>
                 <div className={styles.footerdivider} />
                 <div className={styles.footertxt}>
+
                     <div className={styles.footertxt1}>Stay Updated!
                         🔥
                     </div>
@@ -144,7 +166,7 @@ const Footer = () => {
                 </div>
             </div>
 
-        </div>
+        </div >
     )
 }
 

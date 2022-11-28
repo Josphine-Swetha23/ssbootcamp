@@ -1,12 +1,11 @@
-import React, { useState } from 'react'
+import React, { useRef } from 'react'
 import Card from '../components/card/Card'
 import NavBar from '../components/navbar/NavBar'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from "swiper";
 import Footer from '../components/footer/footer'
 import Link from 'next/link';
-import ModalCompTerms from '../components/modal/Modal'
-import ModalCompRefund from '../components/modal/ModalRefund'
+
 
 
 import "swiper/css";
@@ -15,17 +14,12 @@ import styles from '../styles/index.module.css'
 
 const HomePage = () => {
 
-  const [email, setEmail] = useState("Email Address")
-  const handleClick = (e) => {
-    if (e.target.value == "Email Address") {
-      setEmail("")
-    }
 
-  }
+  const scrollRef = useRef(null)
 
   return (
     <div className={styles.container} >
-      <NavBar />
+      <NavBar course={true} scrollRef={scrollRef} />
 
       <div className={styles.wrapper1}>
         <div className={styles.wrapper1l}><div className={styles.guaranteetext}>100% GROWTH GUARANTEE</div>
@@ -42,7 +36,7 @@ const HomePage = () => {
         <img className={styles.heroimg} src="heroimg.svg" alt="heroimage" />
       </div>
 
-      <div className={styles.wrapper2}>
+      <div ref={scrollRef} className={styles.wrapper2}>
         <div className={styles.wrappertxt}>
           <div className={styles.wrappertxt1}>
             WHAT WE OFFER
@@ -51,22 +45,24 @@ const HomePage = () => {
         </div>
         <div className={styles.wrapper2cards}>
           <div className={styles.wrapper2card}>
+
+
             <img className={styles.cardlogo} src="reactlogo.svg" alt="reactlogo " />
             <div className={styles.carddetails}>
               <div className={styles.cardwrapper}>
                 <div className={styles.cardtitle}>React</div>
                 <div className={styles.cardpill}>8 WEEKS</div>
               </div>
-              <div className={styles.carddetail}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dict</div>
+              <div className={styles.carddetail}>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.</div>
               <div className={styles.carddatetime}>
                 <img src="calendar.svg" alt="calendar" />
-                <div className={styles.carddate} >5th Nov 2022 - 10 am to 1 pm</div>
+                <div className={styles.carddate} >TBD</div>
               </div>
-              <div className={styles.cardtag}>NEXT BATCH STARTS IN 3 WEEKS</div>
+              <div className={styles.cardtag}>JOIN THE WAITLIST</div>
               <div className={styles.cardwrapper}>
                 <div className={styles.button1}>  <Link href="/enroll" >Enroll Now</Link> </div>
                 <div className={styles.cardexplore}>
-                  <div className={styles.button2}>Explore Course</div>
+                  <div className={styles.button2}> <Link href="/comingsoon">Explore Course</Link> </div>
                   <img src="rightarrow.svg" alt="rightarrow" />
                 </div>
 
@@ -81,12 +77,12 @@ const HomePage = () => {
                 <div className={styles.cardtitle}>Azure</div>
                 <div className={styles.cardpill}>8 WEEKS</div>
               </div>
-              <div className={styles.carddetail}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dict</div>
+              <div className={styles.carddetail}>Microsoft Azure, often referred to as Azure, is a cloud computing platform operated by Microsoft for application management via Microsoft-managed data centers.</div>
               <div className={styles.carddatetime}>
                 <img src="calendar.svg" alt="calendar" />
-                <div className={styles.carddate} >5th Nov 2022 - 10 am to 1 pm</div>
+                <div className={styles.carddate} >Onwards</div>
               </div>
-              <div className={styles.cardtag}>NEXT BATCH STARTS IN 3 WEEKS</div>
+              <div className={styles.cardtag}>JOIN THE WAITLIST</div>
               <div className={styles.cardwrapper}>
                 <div className={styles.button1}>  <Link href="/enroll" >Enroll Now  </Link>  </div>
                 <div className={styles.cardexplore}>
@@ -317,7 +313,7 @@ const HomePage = () => {
         <div className={styles.skilltxt}>Check your skill level.  Answer 15 multiple choice questions.
           <br /> Get instant results with correct answers
         </div>
-        <div className={styles.skillbutton}>Take a Free Assessment</div>
+        <div className={styles.skillbutton}>  <Link href="/comingsoon">Take a Free Assessment</Link>  </div>
       </div>
       <img className={styles.todo} src="todolistimg.svg" alt="" />
       <div className={styles.wrapper4}>
@@ -354,6 +350,22 @@ const HomePage = () => {
             }}
             modules={[Pagination]}
             className={styles.swiper2}
+          >
+            <SwiperSlide> <Card /></SwiperSlide>
+            <SwiperSlide> <Card /></SwiperSlide>
+            <SwiperSlide> <Card /></SwiperSlide>
+            <SwiperSlide> <Card /></SwiperSlide>
+            ...
+          </Swiper>
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={2}
+            centeredSlides={true}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+            className={styles.swiper3}
           >
             <SwiperSlide> <Card /></SwiperSlide>
             <SwiperSlide> <Card /></SwiperSlide>

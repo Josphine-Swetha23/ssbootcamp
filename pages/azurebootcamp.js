@@ -36,7 +36,7 @@ const AzureBootcamp = () => {
                     <div className={styles.heading}>
                         Learn MS Azure and crack your next high paying job in 8 weeks
                     </div>
-                    <div className={styles.tag}>Et vel accusamus nam et corrupti numquam. Architecto amet est. Delectus explicabo sint et blanditiis voluptas ratione nesciunt eum. Aut culpa dolore. Iusto eos sit quia. Voluptatem dolores sed pariatur laborum pariatur voluptates magnam placeat rerum.</div>
+                    <div className={styles.tag}>Microsoft Azure, often referred to as Azure, is a cloud computing platform operated by Microsoft for application management via Microsoft-managed data centers.</div>
                     <div className={styles.iconwrappers}>
                         <div className={styles.iconwrapper}>
                             <img src="azurepageicon1.svg" alt="" />

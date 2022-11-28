@@ -11,7 +11,7 @@ const ComingSoon = () => {
 
             <NavBar />
             <div style={{ display: "flex", justifyContent: "center", paddingTop: "20px", background: "var(--color-background)" }} >
-                <img src='comingsoon.png' style={{ width: "500px", height: "500px" }} />
+                <img src='comingsoon.png' style={{ width: "40%", height: "40%" }} />
             </div>
             <Footer />
 

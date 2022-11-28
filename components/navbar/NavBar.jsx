@@ -4,7 +4,9 @@ import NavBarSmall from './NavBarSmall'
 import styles from './navbar.module.css'
 import Link from 'next/link'
 
-const NavBar = () => {
+const NavBar = ({ scrollRef, course }) => {
+
+    const executeScroll = () => scrollRef?.current.scrollIntoView()
     return (
         <div className={styles.container} >
             <Link href="/" >
@@ -17,13 +19,14 @@ const NavBar = () => {
 
 
             <div className={styles.wrapper}>
-                <a className={styles.hidelink} href="">Courses</a>
+                {course ? <div onClick={executeScroll} className={styles.hidelink} >Courses</div> : ""}
+
 
                 <div className={styles.hidelink} href=""> <Link href="/comingsoon">Free Assesment</Link > </div>
                 <div className={styles.hidelink} href="">  <Link href="/getintouch" >Contact</Link> </div>
                 <div className={styles.hidelink} href="">  <Link href="/comingsoon">Become a Mentor</Link> </div>
                 <div className={styles.button}>  <Link href="/enroll" > Enroll Now</Link> </div>
-                <NavBarSmall />
+                <NavBarSmall course={course} executeScroll={executeScroll} />
             </div>
         </div>
     )

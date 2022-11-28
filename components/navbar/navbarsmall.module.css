@@ -43,14 +43,14 @@
   bottom: 0;
 }
 
-input[type]:checked ~ span.top {
+.closemenu ~ span.top {
   transform: rotate(45deg);
   transform-origin: top left;
   width: 48px;
   left: 5px;
 }
 
-input[type]:checked ~ span.bottom {
+.closemenu ~ span.bottom {
   transform: rotate(-45deg);
   transform-origin: top left;
   width: 48px;
@@ -58,7 +58,7 @@ input[type]:checked ~ span.bottom {
   box-shadow: 0 0 10px #495057;
 }
 
-input[type]:checked ~ span.middle {
+.closemenu ~ span.middle {
   transform: translateX(-20px);
   opacity: 0;
 }

@@ -25,6 +25,7 @@
   line-height: 17px;
   letter-spacing: 0em;
   color: var(--color-black);
+  cursor: pointer;
 }
 .hidelink a {
   color: var(--color-black);
