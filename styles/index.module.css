@@ -408,6 +408,14 @@
 }
 
 @media screen and (max-width: 2000px) {
+  .numwrapper {
+    width: 332px;
+  }
+}
+@media screen and (max-width: 1415px) {
+  .numwrapper {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 1150px) {
@@ -435,6 +443,9 @@
     justify-content: space-between;
     gap: 40px;
     padding-top: 40px;
+  }
+  .numwrapper {
+    width: 332px;
   }
   .todo {
     display: none;
