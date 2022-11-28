@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 
 import styles from './navbarsmall.module.css'
-const NavBarSmall = ({ executeScroll, course }) => {
+const NavBarSmall = ({ executeScroll, course, home }) => {
     const [toggle, setToggle] = useState(false)
     const handleClick = () => {
         executeScroll()
@@ -26,7 +26,8 @@ const NavBarSmall = ({ executeScroll, course }) => {
 
             {
                 toggle && < div className={styles.links}>
-                    <div className={styles.a} href="">  <Link href="/" >Home</Link> </div>
+                    {home ? "" : <div className={styles.a} href="">  <Link href="/" >Home</Link> </div>}
+
                     {course ? <div className={styles.a} href="/" onClick={handleClick}>Courses</div> : ''}
 
                     <div className={styles.a} href="">  <Link href="/comingsoon" >Free Assesment</Link> </div>
