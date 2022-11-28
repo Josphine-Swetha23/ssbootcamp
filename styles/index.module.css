@@ -440,7 +440,7 @@
   }
   .numwrappers1 {
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 40px;
     padding-top: 40px;
   }
