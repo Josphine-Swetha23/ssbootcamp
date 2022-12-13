@@ -131,6 +131,9 @@
   display: flex;
   gap: 80px;
 }
+.link1 {
+  cursor: pointer;
+}
 .cardlogo {
   height: 120px;
   width: 120px;
@@ -304,9 +307,12 @@
 }
 .tutorimg {
   object-fit: cover;
+  /* width: 100px; */
+  height: 130px;
+  border-radius: 82px;
 }
 .tutorname {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   color: var(--color-black);
 }
@@ -320,19 +326,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
+  /* width: 115px; */
   height: 30px;
   background: #61dafb;
   color: var(--color-white);
   cursor: pointer;
 }
 .logotutor {
-  height: 29px;
+  height: 30px;
   width: 30px;
 }
 .alogotutor {
-  height: 15px;
-  width: 25px;
+  height: 29.5px;
+  width: 38px;
 }
 .viewtutor {
   display: flex;
