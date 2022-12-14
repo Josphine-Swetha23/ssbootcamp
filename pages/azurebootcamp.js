@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Footer from "../components/footer/footer";
 import Link from "next/link";
 import NavBar from "../components/navbar/NavBar";
-
 import styles from "../styles/azurebootcamp.module.css";
 
 const AzureBootcamp = () => {

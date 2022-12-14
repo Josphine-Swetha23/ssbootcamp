@@ -96,8 +96,8 @@
 }
 .icardname {
   color: #ffffff;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight:600;
 }
 .icarddesc {
   color: #ffffff;
@@ -217,6 +217,8 @@
 .accordian {
   font-size: 16px;
   font-weight: 500;
+  /* width: 100px; */
+  /* white-space: nowrap; */
 
 }
 .wrapper5 {
@@ -385,4 +387,16 @@
   .wrapper6 {
     gap: 30px;
   }
+}
+.x {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.cursor {
+  cursor: pointer;
+}
+
+.container1 {
+  font-family: Inter;
 }
