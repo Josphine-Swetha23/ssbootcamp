@@ -20,7 +20,7 @@ const HomePage = () => {
       <div className={styles.wrapper1}>
         <div className={styles.wrapper1l}>
           <div className={styles.guaranteetext}>100% GROWTH GUARANTEE</div>
-          <div className={styles.herotitle}>Nootch up your career level 🎓</div>
+          <div className={styles.herotitle}>Notch up your career level 🎓</div>
           <div className={styles.herotag}>
             Learn the skills from the tech gurus
             <br />
