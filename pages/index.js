@@ -23,7 +23,7 @@ const HomePage = () => {
 
       <div className={styles.wrapper1}>
         <div className={styles.wrapper1l}><div className={styles.guaranteetext}>100% GROWTH GUARANTEE</div>
-          <div className={styles.herotitle}>Notch up your
+          <div className={styles.herotitle}>Ntch up your
             career level 🎓</div>
           <div className={styles.herotag}>Learn the skills from the tech gurus<br />
             But learning it from the core, first hand, makes you one!</div>
@@ -275,11 +275,13 @@ const HomePage = () => {
               <div className={styles.tutorcircle}>
                 <img className={styles.tutorimg} src="image1.jpg" alt="" />
               </div>
-              <div className={styles.tutorname}>Clifford Weimann</div>
+              <div className={styles.tutorname}>Yuvaraj Murugesan
+              </div>
               <div className={styles.tutordesc}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dict</div>
               <div className={styles.tutorcourse}>
                 <img className={styles.logotutor} src="reactlogo.svg" alt="" />
                 React</div>
+
               <div className={styles.viewtutor}>View Profile
                 <img src="rightarrow.svg" alt="" />
               </div>

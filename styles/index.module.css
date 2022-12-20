@@ -301,9 +301,12 @@
   height: 128px;
   width: 128px;
   border-radius: 50%;
+  object-fit: cover;
 }
 .tutorimg {
-  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
 .tutorname {
   font-size: 24px;
