@@ -307,16 +307,10 @@
   object-fit: cover;
 }
 .tutorimg {
-<<<<<<< HEAD
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-=======
   object-fit: cover;
   /* width: 100px; */
   height: 130px;
   border-radius: 82px;
->>>>>>> 08c9c2d6d0eff6898e6dd6aa20ff376bba543a1c
 }
 .tutorname {
   font-size: 22px;
