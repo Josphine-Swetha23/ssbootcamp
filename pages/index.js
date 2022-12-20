@@ -310,7 +310,7 @@ const HomePage = () => {
                   alt=""
                 />
               </div>
-              <div className={styles.tutorname}>Yuvaraj Murugesan</div>
+              <div className={styles.tutorname}>Yuvaraj Murugesanjj</div>
               <div className={styles.tutordesc}>
                 Holding 10 years of experience as a Informatica IDQ developer
                 working in HCL technologies.Successfully implemented DQ process
