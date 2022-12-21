@@ -27,7 +27,6 @@ const HomePage = () => {
             But learning it from the core, first hand, makes you one!
           </div>
           <div className={`${styles.enrollbutton} ${styles.flexcenter}`}>
-
             <Link href="/enroll">Join for free</Link>
           </div>
         </div>
@@ -317,8 +316,8 @@ const HomePage = () => {
                 for Pearson MDM and FCSA also End to End Data lineage for a
                 Banking Organization.
               </div>
-              <div className={styles.tutorname}>Clifford Weimann</div>
-              <div className={styles.tutordesc}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dict</div>
+              {/* <div className={styles.tutorname}>Clifford Weimann</div>
+              <div className={styles.tutordesc}>Dolorem eos molestias deserunt. Fuga saepe similique aut officiis consequatur dict</div> */}
               <div className={styles.tutorcourse}>
                 <img className={styles.logotutor} src="download.png" alt="" />
                 Informatica IDQ
