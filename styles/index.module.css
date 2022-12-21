@@ -331,7 +331,7 @@
   height: 30px;
   background: #6814c9;
   color: var(--color-white);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .logotutor {
   height: 30px;
