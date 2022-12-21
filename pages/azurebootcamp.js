@@ -63,7 +63,7 @@ const AzureBootcamp = () => {
         <div className={styles.instructorcard}>
           <div className={styles.icardtitle}>instructor</div>
           <div className={styles.imgcontainer}></div>
-          <div className={styles.icardname}>Prashanth Kumar gondipalli</div>
+          <div className={styles.icardname}>Prashanth Kumar Gondipalli</div>
           <div className={styles.icarddesc}>
             I am holding 13 years of experience as an azure devops engineer
             working in EPAM Softwares. Developing Continuous Integration/
@@ -71,12 +71,12 @@ const AzureBootcamp = () => {
             like Jenkins
           </div>
 
-          <div className={styles.icardbuttontitle}>View Profile</div>
+          {/* <div className={styles.icardbuttontitle}>View Profile</div>
           <img
             className={styles.icardbutton}
             src="rightarrowwhite.svg"
             alt=""
-          />
+          /> */}
         </div>
       </div>
       <div className={styles.flexcenter}>

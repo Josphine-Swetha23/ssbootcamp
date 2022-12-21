@@ -71,9 +71,9 @@ const HomePage = () => {
                     {/* <Link href="/comingsoon">
                       Explore Course
                     </Link>{" "} */}
-                    <div className={styles.link1}>Explore Course</div>{" "}
+                    {/* <div className={styles.link1}>Explore Course</div>{" "} */}
                   </div>
-                  <img src="rightarrow.svg" alt="rightarrow" />
+                  {/* <img src="rightarrow.svg" alt="rightarrow" /> */}
                 </div>
               </div>
             </div>
@@ -323,10 +323,10 @@ const HomePage = () => {
                 <img className={styles.logotutor} src="download.png" alt="" />
                 Informatica IDQ
               </div>
-              <div className={styles.viewtutor}>
+              {/* <div className={styles.viewtutor}>
                 View Profile
                 <img src="rightarrow.svg" alt="" />
-              </div>
+              </div> */}
             </div>
             <div className={styles.tutorcard}>
               <div className={styles.tutorcircle}>
@@ -343,10 +343,10 @@ const HomePage = () => {
                 <img className={styles.alogotutor} src="workday.png" alt="" />
                 Workday Testing{" "}
               </div>
-              <div className={styles.viewtutor}>
+              {/* <div className={styles.viewtutor}>
                 View Profile
                 <img src="rightarrow.svg" alt="" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -411,10 +411,14 @@ const HomePage = () => {
                 }
               />
             </SwiperSlide>
-            <SwiperSlide> {/* <Card /> */}</SwiperSlide>.
+            {/* <SwiperSlide>
+              {" "}
+              <Card />
+            </SwiperSlide> */}
+            .
           </Swiper>
           {/*  */}
-          <Swiper
+          {/* <Swiper
             spaceBetween={50}
             slidesPerView={1}
             centeredSlides={true}
@@ -441,8 +445,8 @@ const HomePage = () => {
               <Card />
             </SwiperSlide>
             ...
-          </Swiper>
-          <Swiper
+          </Swiper> */}
+          {/* <Swiper
             spaceBetween={50}
             slidesPerView={2}
             centeredSlides={true}
@@ -469,7 +473,7 @@ const HomePage = () => {
               <Card />
             </SwiperSlide>
             ...
-          </Swiper>
+          </Swiper> */}
         </div>
       </div>
       <Footer />

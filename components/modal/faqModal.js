@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import styles from "../../styles/azurebootcamp.module.css";
-import Link from "next/link";
 
 const customStyles = {
   content: {
-    height: "635px",
-    width: "1400px",
-    display: "flex",
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
     boxShadow: "0px 0px 20px rgba(0,0,0,0.8)",
-    marginLeft: "-60px",
-    marginTop: "-60px",
+    position: "fixed",
   },
 };
 
@@ -49,11 +50,21 @@ function ModalCompTerms() {
         contentLabel="Example Modal"
       >
         <div className={styles.container1}>
-          <div className={styles.wrapper2}>
-            <div className={styles.x} onClick={closeModal}>
-              <img src="x.svg" alt="" />
+          <div className={styles.wrapper2o}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-between",
+                paddingTop: "10%",
+                width: "90%",
+              }}
+            >
+              <div className={styles.title}>Frequently Asked Questions</div>
+              <div onClick={closeModal}>
+                <img src="x.svg" alt="" style={{ cursor: "pointer" }} />
+              </div>
             </div>
-            <div className={styles.title}>Frequently Asked Questions</div>
             <div className={styles.wrapper5}>
               <div className={styles.accordians}>
                 <div className={styles.accordianwrapper}>
@@ -383,6 +394,10 @@ function ModalCompTerms() {
                   </div>
                 </div>
                 {/*  */}
+                <br />
+                <br />
+                <br />
+                <br />
               </div>
             </div>
           </div>
