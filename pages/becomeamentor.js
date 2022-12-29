@@ -12,14 +12,16 @@ const Becomeamentor = () => {
           <NavBar />
           <div className={styles.wrapper1}>
             <div className={styles.miniwrapper1}>
-              <div className={styles.logo}>Build Your Dream</div>
+              <div className={styles.logo}>Build Your Dream Team</div>
               <div className={styles.heading}>
-                Immediate hiring of candidates at scale in niche skills Flexible
-                jobs Contract or Full Time Save time and effort on Vetting the
-                Candidate Onboarding support of Candidates Minimize recruiting
-                and hiring burnout Microsoft Azure, often referred to as Azure,
-                is a cloud computing platform operated by Microsoft for
-                application management via Microsoft-managed data centers.{" "}
+                You can save time, money, and resources by partnering with
+                SightSpectrum for junior/senior positions. Through our workforce
+                strategy support, we advance your long-term goals. The best
+                candidates are handpicked by us based on your needs on demand.
+                By letting us do the heavy lifting, we can match your team with
+                the perfect individuals, based on each learner's strengths,
+                teamwork capabilities, communication styles and technical
+                abilities.{" "}
               </div>
             </div>
             <img className={styles.heroimg} src="Group.svg" alt="" />
@@ -40,14 +42,11 @@ const Becomeamentor = () => {
               </div>
               <div className={styles.heading1}>
                 {" "}
-                This course will help you to implement CI and CD pipelines and
-                infrastructure automation along with great networking and
-                security automation and to clear Azure DevOps Engineer Expert
-                Certification. After this course audience can step out with
-                real-time implementation and automating infrastructure and
-                configuring network along with IAAS and PAAS and strategies for
-                collaboration, source code management, security, compliance,
-                continuous integration, delivery, and monitoring.{" "}
+                Immediate hiring of candidates at scale in niche skills <br />{" "}
+                Flexible jobs Contract or Full Time <br />
+                Save time and effort on Vetting the Candidate <br />
+                Onboarding support of Candidates
+                <br /> Minimize recruiting and hiring burnout
               </div>
             </div>
           </div>

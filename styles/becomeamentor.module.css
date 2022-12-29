@@ -28,7 +28,8 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    color: #000;
+    color: #6b676f;
+    left: 20px;
   }
   .head{
     font-family: Inter;
@@ -152,7 +153,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     /* gap: 30px; */
-    width: 200%;
+    width: 40%;
   }
   .title {
     font-size: 36px;
@@ -431,7 +432,7 @@ text-align: center;
     color: #0089D6;
     font-weight: bolder;
     font-size: 36px;
-    padding-top: 5%;
+    /* padding-top: 5%; */
   }
   .wrapper21 {
     /* background: #fff; */
