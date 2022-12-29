@@ -34,7 +34,10 @@ const NavBar = ({ scrollRef, course, home }) => {
             <Link href="/">Home</Link>{" "}
           </div>
         )}
-
+        <div className={styles.hidelink} href="">
+          {" "}
+          <Link href="/becomeamentor">Hire From Us</Link>{" "}
+        </div>
         <div className={styles.hidelink} href="">
           {" "}
           <Link href="/comingsoon">Free Assesment</Link>{" "}
@@ -45,7 +48,7 @@ const NavBar = ({ scrollRef, course, home }) => {
         </div>
         <div className={styles.hidelink} href="">
           {" "}
-          <Link href="/becomeamentor">Become a Mentor</Link>{" "}
+          <Link href="/comingsoon">Become a Mentor</Link>{" "}
         </div>
         <div className={styles.button}>
           {" "}

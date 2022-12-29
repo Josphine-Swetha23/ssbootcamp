@@ -33,7 +33,7 @@
   }
   .head{
     font-family: Inter;
-    color: #0089D6;
+    color: #000;
     font-weight: bolder;
     font-size: 26px;
 text-align: center;
@@ -76,14 +76,14 @@ text-align: center;
   font-weight: 600;
   line-height: 44px;
   letter-spacing: 0em;
-  color: #0089D6;;
+  color: #000;
   }
   .icontitle1 {
     font-size: 20px;
   font-weight: 600;
   line-height: 44px;
   letter-spacing: 0em;
-  color: #0089D6;;
+  color: #000;
   }
   .iconsub {
     color: #6b676f;
@@ -423,13 +423,13 @@ text-align: center;
   }
   .logo{
     font-family: Inter;
-    color: #0089D6;
+    color: #000;
     font-weight: 700;
     font-size: 36px;
   }
   .logo1{
     font-family: Inter;
-    color: #0089D6;
+    color: #000;
     font-weight: bolder;
     font-size: 36px;
     /* padding-top: 5%; */
