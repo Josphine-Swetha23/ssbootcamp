@@ -53,7 +53,7 @@ const Becomeamentor = () => {
           </div>
           <div className={styles.iconwrappers}>
             <div className={styles.iconwrapper}>
-              <dixv className={styles.icontitle}>High Calibre Talants</dixv>
+              <dixv className={styles.icontitle}>High Calibre Talents</dixv>
               <div className={styles.iconsub}>
                 Trained by professionals in the field and exposed to active
                 projects
