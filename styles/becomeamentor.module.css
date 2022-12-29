@@ -1,0 +1,532 @@
+.container {
+    font-family: var(--font-base);
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    background: var(--color-background);
+    /* width: fit-content; */
+  }
+  .wrapper1 {
+    display: flex;
+    align-items: center;
+    gap: 180px;
+    padding: 25px 95px;
+  }
+  .miniwrapper1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 55%;
+  }
+  .heading {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6b676f;
+  }
+  .heading1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+  }
+  .head{
+    font-family: Inter;
+    color: #0089D6;
+    font-weight: bolder;
+    font-size: 26px;
+text-align: center;
+  }
+  .tag {
+    font-size: 15px;
+    font-weight: 400;
+    color: #6b676f;
+    line-height: 24px;
+  }
+  .flexcenter {
+    padding-left: 180px;
+  }
+  .flexcenter1 {
+    align-self: center;
+    padding-top: 20px;
+  }
+  .flexcenter2 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+   /* padding: 20px; */
+   display: flex;
+   align-self: center;
+   flex-direction: row;
+  }
+  .iconwrappers {
+    display: flex;
+    gap: 80px;
+    padding-left: 30px;
+  }
+  .iconwrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+  .icontitle {
+    font-size: 28px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color: #0089D6;;
+  }
+  .icontitle1 {
+    font-size: 20px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color: #0089D6;;
+  }
+  .iconsub {
+    color: #6b676f;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+ 
+  .heroimg {
+    height: 330px;
+    max-width: 120%;
+    margin-left: -90px;
+  }
+  .icardtitle {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ff5805;
+  }
+  .imgcontainer {
+    height: 128px;
+    width: 128px;
+    background: #ffffff;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .icardname {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight:600;
+  }
+  .icarddesc {
+    color: #ffffff;
+  
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .icardbuttontitle {
+    font-family: var(--font-base);
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .icardbutton {
+    cursor: pointer;
+  }
+  .wrapper2o {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 35px 95px;
+  }
+  
+  .wrapper2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 35px 95px;
+  }
+  .backgroundwhite {
+    /* background: #ffffff; */
+  }
+  .miniwrapper2 {
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    width: 200%;
+  }
+  .title {
+    font-size: 36px;
+    font-weight: 500;
+  }
+  .coursedesc {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6b676f;
+  }
+  .wrapper3 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .title2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .twodivs {
+    display: flex;
+  }
+  .ticktxt {
+    display: flex;
+    gap: 20px;
+  }
+  .subtxt {
+    font-size: 15px;
+    font-weight: 400;
+    color: #6b676f;
+    line-height: 24px;
+  }
+  .accordians {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 30%;
+  }
+  .accordians2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+  }
+  .miniwrapper3 {
+    display: flex;
+    gap: 15px;
+  }
+  .miniwrapper33 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 25px;
+  }
+  .accordiancontent {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6b676f;
+  }
+  .accordianwrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .accordiancontentwrapper {
+    display: none;
+  }
+  .showaccordian {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .miniwrapper3 img {
+    cursor: pointer;
+  }
+  .wrapper4 {
+    display: flex;
+  
+    gap: 100px;
+  }
+  .accordian {
+    font-size: 16px;
+    font-weight: 500;
+    /* width: 100px; */
+    /* white-space: nowrap; */
+  
+  }
+  .wrapper5 {
+    display: flex;
+    gap: 260px;
+  }
+  .wrapper6 {
+    display: flex;
+    gap: 100px;
+  }
+  .wrapper7 {
+    display: flex;
+    gap: 60px;
+  }
+  .wrapper8 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 60%;
+  }
+  .wrapper9 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .enrollbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-base);
+    cursor: pointer;
+    --color: #560bad;
+    width: 10em;
+    height: 3.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    z-index: 0;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+    margin-top: -30px;
+  }
+  .enrollbutton a {
+    width: 10em;
+    text-align: center;
+  }
+  
+  .enrollbutton:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 235px;
+    border-radius: 50%;
+  }
+  
+  .enrollbutton a:hover {
+    color: #fff;
+  }
+  
+  .enrollbutton:before {
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+  }
+  
+  .enrollbutton:hover:before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .enrollbutton:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+  }
+  
+  @media screen and (max-width: 1150px) {
+    .wrapper1 {
+      flex-direction: column;
+      padding: 20px 45px;
+      gap: 80px;
+    }
+    .miniwrapper1 {
+      width: 100%;
+    }
+    .iconwrappers {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .wrapper4 {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .wrapper2 {
+      padding: 20px 45px;
+      flex-wrap: wrap;
+    }
+    .wrapper5 {
+      flex-wrap: wrap;
+      gap: 50px;
+    }
+    .wrapper6 {
+      flex-wrap: wrap;
+    }
+    .flexcenter {
+      padding-left: 0px;
+      display: flex;
+      justify-content: center;
+    }
+    .accordians2 {
+      width: 45%;
+    }
+  
+    .accordiancontent {
+      /* width: 50%; */
+      line-height: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .iconwrapper {
+      width: 85%;
+    }
+    .twodivs {
+      flex-direction: column;
+      gap: 30px;
+    }
+    .wrapper5 {
+      flex-direction: column;
+      gap: 30px;
+    }
+    .wrapper7 {
+      flex-direction: column;
+    }
+    .wrapper1 {
+      padding: 15px 25px;
+    }
+    .wrapper2 {
+      padding: 15px 25px;
+    }
+    .accordians {
+      width: 100%;
+    }
+    .accordians2 {
+      width: 100%;
+    }
+  
+    .coursedesc {
+      width: 300px;
+    }
+    .wrapper8 {
+      width: 100%;
+    }
+    .wrapper4 {
+      gap: 30px;
+    }
+    .wrapper6 {
+      gap: 30px;
+    }
+  }
+  .x {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  .cursor {
+    cursor: pointer;
+  }
+  
+  .container1 {
+    font-family: Inter;
+  }
+  .logo{
+    font-family: Inter;
+    color: #0089D6;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  .logo1{
+    font-family: Inter;
+    color: #0089D6;
+    font-weight: bolder;
+    font-size: 36px;
+    padding-top: 5%;
+  }
+  .wrapper21 {
+    /* background: #fff; */
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+  }
+  .tutorcards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .tutorcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background: #6814c9;
+    width: 300px;
+    height: 300px;
+  }
+  .tutorname {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--color-black);
+  }
+  .tutordesc {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+  }
+  .tutorcourse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 115px; */
+    height: 30px;
+    background: #6814c9;
+    color: var(--color-white);
+    /* cursor: pointer; */
+  }
+  .instructorcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 365px;
+  
+    background: #250846;
+    gap: 15px;
+    padding: 20px;
+    position: relative;
+  }
+  .icardtitle {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ff5805;
+  }
+  .imgcontainer {
+    height: 128px;
+    width: 128px;
+    background: #ffffff;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .icardname {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight:600;
+  }
+  .icarddesc {
+    color: #ffffff;
+  
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .icardbuttontitle {
+    font-family: var(--font-base);
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .icardbutton {
+    cursor: pointer;
+  }
